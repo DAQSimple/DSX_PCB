@@ -48,7 +48,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This code base is for the firmware that will power the DSX which is based around the STM32-G474RE MCU from STMicroelectronics.
+This is for the DSX Shield PCB that will contain our safety circuits and hardware interface for the end user. The PCB is designed in Autodesk Eagle.
 The aim of this product is to assist university engineering students with their projects in fields such as robotics, control, and data acquisition. 
 
 Main Features:
