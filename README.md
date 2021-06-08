@@ -1,11 +1,11 @@
 <!-- PROJECT SHIELDS -->
 <!--
 -->
-![GitHub last commit](https://img.shields.io/github/last-commit/DAQSimple/DSX_fw)
-![GitHub repo size](https://img.shields.io/github/repo-size/DAQSimple/DSX_fw)
-![GitHub issues](https://img.shields.io/github/issues/DAQSimple/DSX_fw)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/DAQSimple/DSX_fw)
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/DAQSimple/DSX_fw?include_prereleases)
+![GitHub last commit](https://img.shields.io/github/last-commit/DAQSimple/DSX_PCB)
+![GitHub repo size](https://img.shields.io/github/repo-size/DAQSimple/DSX_PCB)
+![GitHub issues](https://img.shields.io/github/issues/DAQSimple/DSX_PCB)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/DAQSimple/DSX_PCB)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/DAQSimple/DSX_PCB?include_prereleases)
 
 <!-- PROJECT LOGO -->
 <br />
