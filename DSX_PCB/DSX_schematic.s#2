@@ -139,12 +139,11 @@
 </classes>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
-<part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="180.34" y="25.4" size="5.08" layer="94">DSX Shield Schematic PCB</text>
+<text x="177.8" y="25.4" size="5.08" layer="94">DSX Shield Schematic PCB</text>
 <text x="210.82" y="7.62" size="5.08" layer="94">Revision 1.0</text>
 </plain>
 <instances>
@@ -164,12 +163,6 @@
 <plain>
 </plain>
 <instances>
-<instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="FRAME2" gate="G$2" x="172.72" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
-<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
-</instance>
 </instances>
 <busses>
 </busses>
