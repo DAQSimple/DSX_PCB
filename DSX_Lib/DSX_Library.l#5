@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -2488,38 +2488,23 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <rectangle x1="-0.15" y1="0.05" x2="0.15" y2="0.1" layer="51"/>
 <rectangle x1="-0.15" y1="-0.1" x2="0.15" y2="-0.05" layer="51"/>
 </package>
-<package name="SOT95P230X110-3N">
-<wire x1="-0.7" y1="1.5" x2="-0.7" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="0.7" y1="-1.5" x2="0.7" y2="1.5" width="0.127" layer="51"/>
-<wire x1="0.7" y1="1.5" x2="-0.7" y2="1.5" width="0.127" layer="51"/>
-<wire x1="-0.7" y1="-1.5" x2="0.7" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="-0.7" y1="-1.565" x2="0.7" y2="-1.565" width="0.127" layer="21"/>
-<wire x1="0.7" y1="1.565" x2="-0.7" y2="1.565" width="0.127" layer="21"/>
-<wire x1="0.7" y1="0.615" x2="0.7" y2="1.565" width="0.127" layer="21"/>
-<wire x1="0.7" y1="-1.565" x2="0.7" y2="-0.615" width="0.127" layer="21"/>
-<wire x1="-1.86" y1="1.495" x2="-1.86" y2="0.405" width="0.05" layer="39"/>
-<wire x1="-1.86" y1="0.405" x2="-0.95" y2="0.405" width="0.05" layer="39"/>
-<wire x1="-0.95" y1="0.405" x2="-0.95" y2="-0.405" width="0.05" layer="39"/>
-<wire x1="-0.95" y1="-0.405" x2="-1.86" y2="-0.405" width="0.05" layer="39"/>
-<wire x1="-1.86" y1="-0.405" x2="-1.86" y2="-1.495" width="0.05" layer="39"/>
-<wire x1="-1.86" y1="-1.495" x2="-0.95" y2="-1.495" width="0.05" layer="39"/>
-<wire x1="-0.95" y1="-1.495" x2="-0.95" y2="-1.75" width="0.05" layer="39"/>
-<wire x1="-0.95" y1="-1.75" x2="0.95" y2="-1.75" width="0.05" layer="39"/>
-<wire x1="0.95" y1="-1.75" x2="0.95" y2="-0.545" width="0.05" layer="39"/>
-<wire x1="0.95" y1="-0.545" x2="1.86" y2="-0.545" width="0.05" layer="39"/>
-<wire x1="1.86" y1="-0.545" x2="1.86" y2="0.545" width="0.05" layer="39"/>
-<wire x1="1.86" y1="0.545" x2="0.95" y2="0.545" width="0.05" layer="39"/>
-<wire x1="0.95" y1="0.545" x2="0.95" y2="1.75" width="0.05" layer="39"/>
-<wire x1="0.95" y1="1.75" x2="-0.95" y2="1.75" width="0.05" layer="39"/>
-<wire x1="-0.95" y1="1.75" x2="-0.95" y2="1.495" width="0.05" layer="39"/>
-<wire x1="-0.95" y1="1.495" x2="-1.86" y2="1.495" width="0.05" layer="39"/>
-<circle x="-2.25" y="1" radius="0.1" width="0.2" layer="51"/>
-<circle x="-2.25" y="1" radius="0.1" width="0.2" layer="21"/>
-<text x="-1.75" y="2.04" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-1.75" y="-2.75" size="0.8128" layer="27">&gt;VALUE</text>
-<smd name="1" x="-0.98" y="0.95" dx="1.26" dy="0.59" layer="1" roundness="25"/>
-<smd name="2" x="-0.98" y="-0.95" dx="1.26" dy="0.59" layer="1" roundness="25"/>
-<smd name="3" x="0.98" y="0" dx="1.26" dy="0.59" layer="1" roundness="25"/>
+<package name="SOT95P230X110-3N" urn="urn:adsk.eagle:footprint:29349526/1">
+<description>3-SOT23, 0.95 mm pitch, 2.30 mm span, 3.00 X 1.30 X 1.10 mm body
+&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.30 mm span with body size 3.00 X 1.30 X 1.10 mm&lt;/p&gt;</description>
+<circle x="-1.204" y="1.7586" radius="0.25" width="0" layer="21"/>
+<wire x1="-0.7" y1="1.5686" x2="0.7" y2="1.5686" width="0.12" layer="21"/>
+<wire x1="0.7" y1="1.5686" x2="0.7" y2="0.5586" width="0.12" layer="21"/>
+<wire x1="-0.7" y1="-1.5686" x2="0.7" y2="-1.5686" width="0.12" layer="21"/>
+<wire x1="0.7" y1="-1.5686" x2="0.7" y2="-0.5586" width="0.12" layer="21"/>
+<wire x1="0.7" y1="-1.5" x2="-0.7" y2="-1.5" width="0.12" layer="51"/>
+<wire x1="-0.7" y1="-1.5" x2="-0.7" y2="1.5" width="0.12" layer="51"/>
+<wire x1="-0.7" y1="1.5" x2="0.7" y2="1.5" width="0.12" layer="51"/>
+<wire x1="0.7" y1="1.5" x2="0.7" y2="-1.5" width="0.12" layer="51"/>
+<smd name="1" x="-0.978" y="0.95" dx="1.2593" dy="0.6092" layer="1" roundness="40"/>
+<smd name="2" x="-0.978" y="-0.95" dx="1.2593" dy="0.6092" layer="1" roundness="40"/>
+<smd name="3" x="0.978" y="0" dx="1.2593" dy="0.6092" layer="1" roundness="40"/>
+<text x="0" y="2.6436" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.2036" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 <package name="SOT95P280X145-5N">
 <circle x="-2.41" y="1.05" radius="0.1" width="0.2" layer="21"/>
@@ -3121,7 +3106,7 @@ drill 1.0 mm</description>
 <pad name="2" x="2.54" y="0" drill="1.1051" diameter="1.7051"/>
 <text x="0" y="2.659" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 </package>
-<package name="HDRVR6W64P254_1X6_1574X254X850B" urn="urn:adsk.eagle:footprint:29349433/1">
+<package name="HDRVR6W64P254_1X6_1574X254X850B" urn="urn:adsk.eagle:footprint:29349433/1" locally_modified="yes">
 <description>Single-row, 6-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 8.50 mm insulator length, 15.74 X 2.54 X 8.50 mm body
 &lt;p&gt;Single-row (1X6), 6-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 8.50 mm insulator length with overall size 15.74 X 2.54 X 8.50 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
 <circle x="0" y="1.774" radius="0.25" width="0" layer="21"/>
@@ -3141,6 +3126,131 @@ drill 1.0 mm</description>
 <pad name="6" x="12.7" y="0" drill="1.1051" diameter="1.7051"/>
 <text x="0" y="2.659" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.905" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="HDRVR8W64P254_1X8_2082X254X850B" urn="urn:adsk.eagle:footprint:29349461/1">
+<description>Single-row, 8-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 8.50 mm insulator length, 20.82 X 2.54 X 8.50 mm body
+&lt;p&gt;Single-row (1X8), 8-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 8.50 mm insulator length with overall size 20.82 X 2.54 X 8.50 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<circle x="0" y="1.774" radius="0.25" width="0" layer="21"/>
+<wire x1="19.3" y1="-1.27" x2="-1.52" y2="-1.27" width="0.12" layer="21"/>
+<wire x1="-1.52" y1="-1.27" x2="-1.52" y2="1.27" width="0.12" layer="21"/>
+<wire x1="-1.52" y1="1.27" x2="19.3" y2="1.27" width="0.12" layer="21"/>
+<wire x1="19.3" y1="1.27" x2="19.3" y2="-1.27" width="0.12" layer="21"/>
+<wire x1="19.3" y1="-1.27" x2="-1.52" y2="-1.27" width="0.12" layer="51"/>
+<wire x1="-1.52" y1="-1.27" x2="-1.52" y2="1.27" width="0.12" layer="51"/>
+<wire x1="-1.52" y1="1.27" x2="19.3" y2="1.27" width="0.12" layer="51"/>
+<wire x1="19.3" y1="1.27" x2="19.3" y2="-1.27" width="0.12" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="2" x="2.54" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="3" x="5.08" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="4" x="7.62" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="5" x="10.16" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="6" x="12.7" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="7" x="15.24" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="8" x="17.78" y="0" drill="1.1051" diameter="1.7051"/>
+<text x="0" y="2.659" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.905" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="HDRVR10W64P254_1X10_2590X254X850B" urn="urn:adsk.eagle:footprint:29349478/1">
+<description>Single-row, 10-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 8.50 mm insulator length, 25.90 X 2.54 X 8.50 mm body
+&lt;p&gt;Single-row (1X10), 10-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.20 mm tail length and 8.50 mm insulator length with overall size 25.90 X 2.54 X 8.50 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<circle x="0" y="1.774" radius="0.25" width="0" layer="21"/>
+<wire x1="24.38" y1="-1.27" x2="-1.52" y2="-1.27" width="0.12" layer="21"/>
+<wire x1="-1.52" y1="-1.27" x2="-1.52" y2="1.27" width="0.12" layer="21"/>
+<wire x1="-1.52" y1="1.27" x2="24.38" y2="1.27" width="0.12" layer="21"/>
+<wire x1="24.38" y1="1.27" x2="24.38" y2="-1.27" width="0.12" layer="21"/>
+<wire x1="24.38" y1="-1.27" x2="-1.52" y2="-1.27" width="0.12" layer="51"/>
+<wire x1="-1.52" y1="-1.27" x2="-1.52" y2="1.27" width="0.12" layer="51"/>
+<wire x1="-1.52" y1="1.27" x2="24.38" y2="1.27" width="0.12" layer="51"/>
+<wire x1="24.38" y1="1.27" x2="24.38" y2="-1.27" width="0.12" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="2" x="2.54" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="3" x="5.08" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="4" x="7.62" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="5" x="10.16" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="6" x="12.7" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="7" x="15.24" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="8" x="17.78" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="9" x="20.32" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="10" x="22.86" y="0" drill="1.1051" diameter="1.7051"/>
+<text x="0" y="2.659" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.905" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="HDRVR19W64P254_1X19_4876X254X850B" urn="urn:adsk.eagle:footprint:29349493/1">
+<description>Single-row, 19-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 8.50 mm insulator length, 48.76 X 2.54 X 8.50 mm body
+&lt;p&gt;Single-row (1X19), 19-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 8.50 mm insulator length with overall size 48.76 X 2.54 X 8.50 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<circle x="0" y="1.774" radius="0.25" width="0" layer="21"/>
+<wire x1="47.24" y1="-1.27" x2="-1.52" y2="-1.27" width="0.12" layer="21"/>
+<wire x1="-1.52" y1="-1.27" x2="-1.52" y2="1.27" width="0.12" layer="21"/>
+<wire x1="-1.52" y1="1.27" x2="47.24" y2="1.27" width="0.12" layer="21"/>
+<wire x1="47.24" y1="1.27" x2="47.24" y2="-1.27" width="0.12" layer="21"/>
+<wire x1="47.24" y1="-1.27" x2="-1.52" y2="-1.27" width="0.12" layer="51"/>
+<wire x1="-1.52" y1="-1.27" x2="-1.52" y2="1.27" width="0.12" layer="51"/>
+<wire x1="-1.52" y1="1.27" x2="47.24" y2="1.27" width="0.12" layer="51"/>
+<wire x1="47.24" y1="1.27" x2="47.24" y2="-1.27" width="0.12" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="2" x="2.54" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="3" x="5.08" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="4" x="7.62" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="5" x="10.16" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="6" x="12.7" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="7" x="15.24" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="8" x="17.78" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="9" x="20.32" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="10" x="22.86" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="11" x="25.4" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="12" x="27.94" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="13" x="30.48" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="14" x="33.02" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="15" x="35.56" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="16" x="38.1" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="17" x="40.64" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="18" x="43.18" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="19" x="45.72" y="0" drill="1.1051" diameter="1.7051"/>
+<text x="0" y="2.659" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.905" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="DIP762W50P254L968H350Q8B" urn="urn:adsk.eagle:footprint:29349550/1">
+<description>8-DIP, 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span, 9.68 X 7.62 X 3.50 mm body
+&lt;p&gt;8-pin DIP package with 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span with body size 9.68 X 7.62 X 3.50 mm&lt;/p&gt;</description>
+<circle x="-4.9958" y="3.81" radius="0.25" width="0" layer="21"/>
+<wire x1="-3.81" y1="4.7458" x2="-3.81" y2="4.865" width="0.12" layer="21"/>
+<wire x1="-3.81" y1="4.865" x2="3.81" y2="4.865" width="0.12" layer="21"/>
+<wire x1="3.81" y1="4.865" x2="3.81" y2="4.7458" width="0.12" layer="21"/>
+<wire x1="-3.81" y1="-4.7458" x2="-3.81" y2="-4.865" width="0.12" layer="21"/>
+<wire x1="-3.81" y1="-4.865" x2="3.81" y2="-4.865" width="0.12" layer="21"/>
+<wire x1="3.81" y1="-4.865" x2="3.81" y2="-4.7458" width="0.12" layer="21"/>
+<wire x1="3.81" y1="-4.865" x2="-3.81" y2="-4.865" width="0.12" layer="51"/>
+<wire x1="-3.81" y1="-4.865" x2="-3.81" y2="4.865" width="0.12" layer="51"/>
+<wire x1="-3.81" y1="4.865" x2="3.81" y2="4.865" width="0.12" layer="51"/>
+<wire x1="3.81" y1="4.865" x2="3.81" y2="-4.865" width="0.12" layer="51"/>
+<pad name="1" x="-3.81" y="3.81" drill="0.7636" diameter="1.3636"/>
+<pad name="2" x="-3.81" y="1.27" drill="0.7636" diameter="1.3636"/>
+<pad name="3" x="-3.81" y="-1.27" drill="0.7636" diameter="1.3636"/>
+<pad name="4" x="-3.81" y="-3.81" drill="0.7636" diameter="1.3636"/>
+<pad name="5" x="3.81" y="-3.81" drill="0.7636" diameter="1.3636"/>
+<pad name="6" x="3.81" y="-1.27" drill="0.7636" diameter="1.3636"/>
+<pad name="7" x="3.81" y="1.27" drill="0.7636" diameter="1.3636"/>
+<pad name="8" x="3.81" y="3.81" drill="0.7636" diameter="1.3636"/>
+<text x="0" y="5.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.5" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SOT95P240X110-5N" urn="urn:adsk.eagle:footprint:29349562/1">
+<description>5-SOT23, 0.95 mm pitch, 2.40 mm span, 2.90 X 1.30 X 1.10 mm body
+&lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.40 mm span with body size 2.90 X 1.30 X 1.10 mm&lt;/p&gt;</description>
+<circle x="-1.204" y="1.7586" radius="0.25" width="0" layer="21"/>
+<wire x1="-0.7" y1="1.5686" x2="0.7" y2="1.5686" width="0.12" layer="21"/>
+<wire x1="-0.7" y1="-1.5686" x2="0.7" y2="-1.5686" width="0.12" layer="21"/>
+<wire x1="0.7" y1="-1.5" x2="-0.7" y2="-1.5" width="0.12" layer="51"/>
+<wire x1="-0.7" y1="-1.5" x2="-0.7" y2="1.5" width="0.12" layer="51"/>
+<wire x1="-0.7" y1="1.5" x2="0.7" y2="1.5" width="0.12" layer="51"/>
+<wire x1="0.7" y1="1.5" x2="0.7" y2="-1.5" width="0.12" layer="51"/>
+<smd name="1" x="-1.0245" y="0.95" dx="1.1801" dy="0.6092" layer="1"/>
+<smd name="2" x="-1.0245" y="0" dx="1.1801" dy="0.6092" layer="1"/>
+<smd name="3" x="-1.0245" y="-0.95" dx="1.1801" dy="0.6092" layer="1"/>
+<smd name="4" x="1.0245" y="-0.95" dx="1.1801" dy="0.6092" layer="1"/>
+<smd name="5" x="1.0245" y="0.95" dx="1.1801" dy="0.6092" layer="1"/>
+<text x="0" y="2.6436" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.2036" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
@@ -4101,6 +4211,48 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <packageinstance name="HDRVR6W64P254_1X6_1574X254X850B"/>
 </packageinstances>
 </package3d>
+<package3d name="HDRVR8W64P254_1X8_2082X254X850B" urn="urn:adsk.eagle:package:29349454/1" type="model">
+<description>Single-row, 8-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 8.50 mm insulator length, 20.82 X 2.54 X 8.50 mm body
+&lt;p&gt;Single-row (1X8), 8-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 8.50 mm insulator length with overall size 20.82 X 2.54 X 8.50 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="HDRVR8W64P254_1X8_2082X254X850B"/>
+</packageinstances>
+</package3d>
+<package3d name="HDRVR10W64P254_1X10_2590X254X850B" urn="urn:adsk.eagle:package:29349473/1" type="model">
+<description>Single-row, 10-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 8.50 mm insulator length, 25.90 X 2.54 X 8.50 mm body
+&lt;p&gt;Single-row (1X10), 10-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.20 mm tail length and 8.50 mm insulator length with overall size 25.90 X 2.54 X 8.50 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="HDRVR10W64P254_1X10_2590X254X850B"/>
+</packageinstances>
+</package3d>
+<package3d name="HDRVR19W64P254_1X19_4876X254X850B" urn="urn:adsk.eagle:package:29349485/1" type="model">
+<description>Single-row, 19-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 8.50 mm insulator length, 48.76 X 2.54 X 8.50 mm body
+&lt;p&gt;Single-row (1X19), 19-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 8.50 mm insulator length with overall size 48.76 X 2.54 X 8.50 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="HDRVR19W64P254_1X19_4876X254X850B"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT95P230X110-3N" urn="urn:adsk.eagle:package:29349509/1" type="model">
+<description>3-SOT23, 0.95 mm pitch, 2.30 mm span, 3.00 X 1.30 X 1.10 mm body
+&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.30 mm span with body size 3.00 X 1.30 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT95P230X110-3N"/>
+</packageinstances>
+</package3d>
+<package3d name="DIP762W50P254L968H350Q8B" urn="urn:adsk.eagle:package:29349536/1" type="model">
+<description>8-DIP, 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span, 9.68 X 7.62 X 3.50 mm body
+&lt;p&gt;8-pin DIP package with 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span with body size 9.68 X 7.62 X 3.50 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="DIP762W50P254L968H350Q8B"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT95P240X110-5N" urn="urn:adsk.eagle:package:29349559/1" type="model">
+<description>5-SOT23, 0.95 mm pitch, 2.40 mm span, 2.90 X 1.30 X 1.10 mm body
+&lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.40 mm span with body size 2.90 X 1.30 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT95P240X110-5N"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="FE08-1">
@@ -4390,7 +4542,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <gate name="G$1" symbol="FE08-1" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="FE08">
+<device name="1X8-FEM-HEAD-3D" package="HDRVR8W64P254_1X8_2082X254X850B">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -4402,16 +4554,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8194/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29349454/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-<attribute name="POPULARITY" value="10" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -4446,7 +4592,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <gate name="G$1" symbol="FE10-1" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="FE10">
+<device name="1X10-FEM-HEAD-3D" package="HDRVR10W64P254_1X10_2590X254X850B">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -4460,16 +4606,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8192/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29349473/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-<attribute name="POPULARITY" value="4" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -4500,7 +4640,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <gate name="G$1" symbol="PINHD19" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="1X19">
+<device name="1X19-FEM-HEAD-3D" package="HDRVR19W64P254_1X19_4876X254X850B">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -4522,6 +4662,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29349485/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4562,11 +4705,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <gate name="G$1" symbol="D-ZENER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT95P230X110-3N">
+<device name="ZENER-SOT23-3D" package="SOT95P230X110-3N">
 <connects>
 <connect gate="G$1" pin="A" pad="1"/>
 <connect gate="G$1" pin="C" pad="3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29349509/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4578,7 +4724,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <gate name="G$1" symbol="OPAMP+-" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT95P280X145-5N">
+<device name="OPAMP-SOT23-3D" package="SOT95P240X110-5N">
 <connects>
 <connect gate="G$1" pin="+IN" pad="3"/>
 <connect gate="G$1" pin="-IN" pad="4"/>
@@ -4586,6 +4732,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="V+" pad="2"/>
 <connect gate="G$1" pin="V-" pad="5"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29349559/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4598,7 +4747,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <gate name="G$1" symbol="6N137A-X001" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="DIP762W50P254L977H451Q8">
+<device name="OPTO-8DIP-3D" package="DIP762W50P254L968H350Q8B">
 <connects>
 <connect gate="G$1" pin="A" pad="2"/>
 <connect gate="G$1" pin="C" pad="3"/>
@@ -4607,15 +4756,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="VE" pad="7"/>
 <connect gate="G$1" pin="VO" pad="6"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29349536/1"/>
+</package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="DESCRIPTION" value=" Logic Output Optoisolator 10MBd Open Collector 5000Vrms 1 Channel 1kV/µs CMTI 8-DIP "/>
-<attribute name="MF" value="Vishay Semiconductor"/>
-<attribute name="MP" value="6N137A-X001"/>
-<attribute name="PACKAGE" value="DIP-8 Vishay Semiconductor"/>
-<attribute name="PRICE" value="None"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
