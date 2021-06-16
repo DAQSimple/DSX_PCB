@@ -806,11 +806,11 @@ design rules under a new name.</description>
 <board_group name="NUCLEO-HEADERS"/>
 </groups>
 <elements>
-<element name="J2" library="DSX_Library" package="HDRVR2W64P254_1X2_558X254X850B" package3d_urn="urn:adsk.eagle:package:29349394/1" value="FE02-11X02-3D" x="80" y="93.94" smashed="yes" rot="R270" grouprefs="NUCLEO-HEADERS">
-<attribute name="NAME" x="81.7638" y="95.3888" size="1.27" layer="25" ratio="10"/>
+<element name="J2" library="DSX_Library" package="HDRVR2W64P254_1X2_558X254X850B" package3d_urn="urn:adsk.eagle:package:29349394/1" value="FE02-11X02-3D" x="80" y="93.94" locked="yes" smashed="yes" rot="R270" grouprefs="NUCLEO-HEADERS">
+<attribute name="NAME" x="81.7638" y="95.3888" locked="yes" size="1.27" layer="25" ratio="10"/>
 </element>
-<element name="J1" library="DSX_Library" package="HDRVR2W64P254_1X2_558X254X850B" package3d_urn="urn:adsk.eagle:package:29349394/1" value="FE02-11X02-3D" x="16.5" y="93.94" smashed="yes" rot="R270" grouprefs="NUCLEO-HEADERS">
-<attribute name="NAME" x="18.1938" y="95.4588" size="1.27" layer="25" ratio="10"/>
+<element name="J1" library="DSX_Library" package="HDRVR2W64P254_1X2_558X254X850B" package3d_urn="urn:adsk.eagle:package:29349394/1" value="FE02-11X02-3D" x="16.5" y="93.94" locked="yes" smashed="yes" rot="R270" grouprefs="NUCLEO-HEADERS">
+<attribute name="NAME" x="18.1938" y="95.4588" locked="yes" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="J10" library="DSX_Library" package="HDRVR6W64P254_1X6_1574X254X850B" package3d_urn="urn:adsk.eagle:package:29349415/1" value="" x="24.12" y="32.98" locked="yes" smashed="yes" rot="R270" grouprefs="NUCLEO-HEADERS">
 <attribute name="NAME" x="24.9007" y="16.8397" locked="yes" size="1.27" layer="25" align="bottom-center"/>

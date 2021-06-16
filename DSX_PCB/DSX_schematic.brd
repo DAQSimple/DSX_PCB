@@ -73,7 +73,7 @@
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXlzZnUxNzQ" projecturn="a.YnVzaW5lc3M6bXlzZnUxNzQjMjAyMTA2MTU0MjA1MjI3NTE" f3durn="urn:adsk.wipprod:dm.lineage:BBclBCx5QKumMrxfSdPzpg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="13da357c-75aa-4b75-8c1f-85462cad0b6d" lastsyncedrevisionid="13da357c-75aa-4b75-8c1f-85462cad0b6d" lastboardhashguid="f6bb1377-624b-f32f-caf6-ba17a32dcbc6" lastpushedtime="2021-06-15T03:06:06Z" linktopcb3d="false"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXlzZnUxNzQ" projecturn="a.YnVzaW5lc3M6bXlzZnUxNzQjMjAyMTA2MTU0MjA1MjI3NTE" f3durn="urn:adsk.wipprod:dm.lineage:BBclBCx5QKumMrxfSdPzpg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="13da357c-75aa-4b75-8c1f-85462cad0b6d" lastsyncedrevisionid="13da357c-75aa-4b75-8c1f-85462cad0b6d" lastboardhashguid="f6bb1377-624b-f32f-caf6-ba17a32dcbc6" lastpushedtime="2021-06-15T03:06:06Z" linktopcb3d="true"/>
 <plain>
 <wire x1="0" y1="0" x2="96" y2="0" width="0" layer="20"/>
 <wire x1="96" y1="0" x2="96" y2="138" width="0" layer="20"/>
@@ -207,44 +207,44 @@
 <wire x1="-1.52" y1="-3.81" x2="-1.52" y2="1.27" width="0.12" layer="51"/>
 <wire x1="-1.52" y1="1.27" x2="47.24" y2="1.27" width="0.12" layer="51"/>
 <wire x1="47.24" y1="1.27" x2="47.24" y2="-3.81" width="0.12" layer="51"/>
-<pad name="1" x="0" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="2" x="2.54" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="3" x="5.08" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="4" x="7.62" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="5" x="10.16" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="6" x="12.7" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="7" x="15.24" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="8" x="17.78" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="9" x="20.32" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="10" x="22.86" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="11" x="25.4" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="12" x="27.94" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="13" x="30.48" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="14" x="33.02" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="15" x="35.56" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="16" x="38.1" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="17" x="40.64" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="18" x="43.18" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="19" x="45.72" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="20" x="45.72" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="21" x="43.18" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="22" x="40.64" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="23" x="38.1" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="24" x="35.56" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="25" x="33.02" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="26" x="30.48" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="27" x="27.94" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="28" x="25.4" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="29" x="22.86" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="30" x="20.32" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="31" x="17.78" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="32" x="15.24" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="33" x="12.7" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="34" x="10.16" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="35" x="7.62" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="36" x="5.08" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="37" x="2.54" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="38" x="0" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="1" x="0" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="2" x="0" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="3" x="2.54" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="4" x="2.54" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="5" x="5.08" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="6" x="5.08" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="7" x="7.62" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="8" x="7.62" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="9" x="10.16" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="10" x="10.16" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="11" x="12.7" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="12" x="12.7" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="13" x="15.24" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="14" x="15.24" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="15" x="17.78" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="16" x="17.78" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="17" x="20.32" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="18" x="20.32" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="19" x="22.86" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="20" x="22.86" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="21" x="25.4" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="22" x="25.4" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="23" x="27.94" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="24" x="27.94" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="25" x="30.48" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="26" x="30.48" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="27" x="33.02" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="28" x="33.02" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="29" x="35.56" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="30" x="35.56" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="31" x="38.1" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="32" x="38.1" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="33" x="40.64" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="34" x="40.64" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="35" x="43.18" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="36" x="43.18" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="37" x="45.72" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="38" x="45.72" y="0" drill="1.1051" diameter="1.7051"/>
 <text x="0" y="2.659" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-4.445" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
@@ -2155,7 +2155,6 @@ design rules under a new name.</description>
 <signal name="GND">
 <contactref element="J11" pad="5"/>
 <contactref element="R1" pad="1"/>
-<contactref element="R1" pad="1"/>
 <contactref element="R2" pad="1"/>
 <contactref element="J12" pad="5"/>
 <contactref element="R3" pad="1"/>
@@ -2282,57 +2281,57 @@ design rules under a new name.</description>
 <contactref element="J3" pad="35"/>
 <contactref element="J11" pad="6"/>
 <contactref element="R1" pad="2"/>
-<wire x1="53" y1="9.422" x2="77.46" y2="58.38" width="0" layer="19" extent="1-1"/>
+<wire x1="53" y1="9.422" x2="77.46" y2="22.82" width="0" layer="19" extent="1-1"/>
 <wire x1="45.81" y1="9.73" x2="53" y2="9.422" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DI2">
 <contactref element="J3" pad="33"/>
 <contactref element="J12" pad="6"/>
 <contactref element="R3" pad="2"/>
-<wire x1="53" y1="27.422" x2="77.46" y2="53.3" width="0" layer="19" extent="1-1"/>
+<wire x1="53" y1="27.422" x2="77.46" y2="25.36" width="0" layer="19" extent="1-1"/>
 <wire x1="45.81" y1="27.73" x2="53" y2="27.422" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DI3">
 <contactref element="J3" pad="31"/>
 <contactref element="J13" pad="6"/>
 <contactref element="R5" pad="2"/>
-<wire x1="53" y1="49.422" x2="77.46" y2="48.22" width="0" layer="19" extent="1-1"/>
+<wire x1="53" y1="49.422" x2="77.46" y2="27.9" width="0" layer="19" extent="1-1"/>
 <wire x1="45.81" y1="43.73" x2="53" y2="49.422" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DI4">
 <contactref element="J3" pad="29"/>
 <contactref element="J14" pad="6"/>
 <contactref element="R7" pad="2"/>
-<wire x1="53" y1="60.422" x2="77.46" y2="43.14" width="0" layer="19" extent="1-1"/>
 <wire x1="45.81" y1="60.73" x2="53" y2="60.422" width="0" layer="19" extent="1-1"/>
+<wire x1="77.46" y1="30.44" x2="53" y2="60.422" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DI5">
 <contactref element="J3" pad="27"/>
 <contactref element="J18" pad="6"/>
 <contactref element="R15" pad="2"/>
 <wire x1="45.81" y1="127.73" x2="53" y2="127.422" width="0" layer="19" extent="1-1"/>
-<wire x1="77.46" y1="38.06" x2="53" y2="127.422" width="0" layer="19" extent="1-1"/>
+<wire x1="77.46" y1="32.98" x2="53" y2="127.422" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DI6">
 <contactref element="J3" pad="25"/>
 <contactref element="J17" pad="6"/>
 <contactref element="R13" pad="2"/>
 <wire x1="45.81" y1="112.73" x2="53" y2="119.422" width="0" layer="19" extent="1-1"/>
-<wire x1="77.46" y1="32.98" x2="45.81" y2="112.73" width="0" layer="19" extent="1-1"/>
+<wire x1="77.46" y1="35.52" x2="45.81" y2="112.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DI7">
 <contactref element="J3" pad="23"/>
 <contactref element="J16" pad="6"/>
 <contactref element="R11" pad="2"/>
 <wire x1="45.81" y1="96.73" x2="53" y2="97.422" width="0" layer="19" extent="1-1"/>
-<wire x1="77.46" y1="27.9" x2="53" y2="97.422" width="0" layer="19" extent="1-1"/>
+<wire x1="77.46" y1="38.06" x2="53" y2="97.422" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DI8">
 <contactref element="J3" pad="21"/>
 <contactref element="J15" pad="6"/>
 <contactref element="R9" pad="2"/>
 <wire x1="45.81" y1="78.73" x2="53" y2="78.422" width="0" layer="19" extent="1-1"/>
-<wire x1="77.46" y1="22.82" x2="53" y2="78.422" width="0" layer="19" extent="1-1"/>
+<wire x1="77.46" y1="40.6" x2="53" y2="78.422" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

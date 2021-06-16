@@ -383,44 +383,44 @@
 <wire x1="-1.52" y1="-3.81" x2="-1.52" y2="1.27" width="0.12" layer="51"/>
 <wire x1="-1.52" y1="1.27" x2="47.24" y2="1.27" width="0.12" layer="51"/>
 <wire x1="47.24" y1="1.27" x2="47.24" y2="-3.81" width="0.12" layer="51"/>
-<pad name="1" x="0" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="2" x="2.54" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="3" x="5.08" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="4" x="7.62" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="5" x="10.16" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="6" x="12.7" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="7" x="15.24" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="8" x="17.78" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="9" x="20.32" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="10" x="22.86" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="11" x="25.4" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="12" x="27.94" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="13" x="30.48" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="14" x="33.02" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="15" x="35.56" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="16" x="38.1" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="17" x="40.64" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="18" x="43.18" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="19" x="45.72" y="0" drill="1.1051" diameter="1.7051"/>
-<pad name="20" x="45.72" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="21" x="43.18" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="22" x="40.64" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="23" x="38.1" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="24" x="35.56" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="25" x="33.02" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="26" x="30.48" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="27" x="27.94" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="28" x="25.4" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="29" x="22.86" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="30" x="20.32" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="31" x="17.78" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="32" x="15.24" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="33" x="12.7" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="34" x="10.16" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="35" x="7.62" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="36" x="5.08" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="37" x="2.54" y="-2.54" drill="1.1051" diameter="1.7051"/>
-<pad name="38" x="0" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="1" x="0" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="2" x="0" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="3" x="2.54" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="4" x="2.54" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="5" x="5.08" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="6" x="5.08" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="7" x="7.62" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="8" x="7.62" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="9" x="10.16" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="10" x="10.16" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="11" x="12.7" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="12" x="12.7" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="13" x="15.24" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="14" x="15.24" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="15" x="17.78" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="16" x="17.78" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="17" x="20.32" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="18" x="20.32" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="19" x="22.86" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="20" x="22.86" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="21" x="25.4" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="22" x="25.4" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="23" x="27.94" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="24" x="27.94" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="25" x="30.48" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="26" x="30.48" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="27" x="33.02" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="28" x="33.02" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="29" x="35.56" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="30" x="35.56" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="31" x="38.1" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="32" x="38.1" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="33" x="40.64" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="34" x="40.64" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="35" x="43.18" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="36" x="43.18" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="37" x="45.72" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="38" x="45.72" y="0" drill="1.1051" diameter="1.7051"/>
 <text x="0" y="2.659" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-4.445" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
@@ -6119,7 +6119,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <junction x="68.58" y="35.56"/>
-<pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
