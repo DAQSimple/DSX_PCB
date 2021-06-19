@@ -9564,7 +9564,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -9572,6 +9571,10 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U$2" library="DSX_Library" deviceset="GREEN-LED-SMT" device="" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="U$3" library="DSX_Library" deviceset="GREEN-LED-SMT" device="" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="+3V14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="+3V15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9662,9 +9665,6 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="GND26" gate="1" x="38.1" y="109.22" smashed="yes">
 <attribute name="VALUE" x="35.56" y="106.68" size="1.778" layer="96"/>
 </instance>
-<instance part="P+1" gate="1" x="38.1" y="137.16" smashed="yes">
-<attribute name="VALUE" x="38.1" y="139.7" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="+3V13" gate="G$1" x="114.3" y="132.08" smashed="yes">
 <attribute name="VALUE" x="116.84" y="134.62" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -9673,6 +9673,18 @@ Source: AVX .. aphvc.pdf</description>
 </instance>
 <instance part="GND29" gate="1" x="111.76" y="116.84" smashed="yes">
 <attribute name="VALUE" x="109.22" y="114.3" size="1.778" layer="96"/>
+</instance>
+<instance part="P+1" gate="1" x="38.1" y="149.86" smashed="yes">
+<attribute name="VALUE" x="38.1" y="152.4" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="+3V14" gate="G$1" x="45.72" y="152.4" smashed="yes">
+<attribute name="VALUE" x="45.72" y="154.94" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+4" gate="1" x="241.3" y="149.86" smashed="yes">
+<attribute name="VALUE" x="241.3" y="152.4" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="+3V15" gate="G$1" x="233.68" y="152.4" smashed="yes">
+<attribute name="VALUE" x="233.68" y="154.94" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -9738,6 +9750,11 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="38.1" y="124.46"/>
 <wire x1="38.1" y1="124.46" x2="38.1" y2="111.76" width="0.1524" layer="91"/>
 <junction x="38.1" y="111.76"/>
+<pinref part="J7" gate="G$1" pin="5"/>
+<wire x1="50.8" y1="134.62" x2="38.1" y2="134.62" width="0.1524" layer="91"/>
+<label x="40.64" y="134.62" size="1.778" layer="95"/>
+<wire x1="38.1" y1="134.62" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
+<junction x="38.1" y="129.54"/>
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="20"/>
@@ -9818,6 +9835,12 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="114.3" y1="127" x2="114.3" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="+3V13" gate="G$1" pin="+3V3"/>
 </segment>
+<segment>
+<pinref part="J7" gate="G$1" pin="1"/>
+<wire x1="50.8" y1="144.78" x2="45.72" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="144.78" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="+3V14" gate="G$1" pin="+3V3"/>
+</segment>
 </net>
 <net name="DI2_M" class="0">
 <segment>
@@ -9847,16 +9870,22 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="P+2" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="J7" gate="G$1" pin="5"/>
-<wire x1="50.8" y1="134.62" x2="38.1" y2="134.62" width="0.1524" layer="91"/>
-<label x="40.64" y="134.62" size="1.778" layer="95"/>
-<pinref part="P+1" gate="1" pin="+5V"/>
-</segment>
-<segment>
 <wire x1="99.06" y1="124.46" x2="119.38" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="124.46" x2="119.38" y2="127" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
 <pinref part="J5" gate="G$1" pin="18"/>
+</segment>
+<segment>
+<pinref part="J7" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="142.24" x2="38.1" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="142.24" x2="38.1" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="P+1" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="142.24" x2="241.3" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="142.24" x2="241.3" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="P+4" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="AI1_T" class="0">
@@ -10158,6 +10187,14 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="J3" gate="G$1" pin="26"/>
 <wire x1="190.5" y1="114.3" x2="205.74" y2="114.3" width="0.1524" layer="91"/>
 <label x="198.12" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$62" class="0">
+<segment>
+<pinref part="J4" gate="G$1" pin="1"/>
+<wire x1="228.6" y1="144.78" x2="233.68" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="144.78" x2="233.68" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="+3V15" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 </nets>

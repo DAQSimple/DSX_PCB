@@ -9856,13 +9856,6 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="182.88" y1="99.06" x2="167.64" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DO1_T" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="9"/>
-<label x="231.14" y="124.46" size="1.778" layer="95"/>
-<wire x1="228.6" y1="124.46" x2="238.76" y2="124.46" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="+5V" class="0">
 <segment>
 <pinref part="J8" gate="G$1" pin="4"/>
@@ -9963,13 +9956,6 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="J3" gate="G$1" pin="19"/>
 <wire x1="182.88" y1="121.92" x2="167.64" y2="121.92" width="0.1524" layer="91"/>
 <label x="167.64" y="121.92" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DO2_T" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="8"/>
-<label x="231.14" y="127" size="1.778" layer="95"/>
-<wire x1="228.6" y1="127" x2="238.76" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWM1_M" class="0">
@@ -10195,6 +10181,20 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="228.6" y1="144.78" x2="233.68" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="144.78" x2="233.68" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="+3V15" gate="G$1" pin="+3V3"/>
+</segment>
+</net>
+<net name="DO1_T" class="0">
+<segment>
+<pinref part="J4" gate="G$1" pin="9"/>
+<label x="231.14" y="124.46" size="1.778" layer="95"/>
+<wire x1="228.6" y1="124.46" x2="238.76" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DO2_T" class="0">
+<segment>
+<pinref part="J4" gate="G$1" pin="8"/>
+<label x="231.14" y="127" size="1.778" layer="95"/>
+<wire x1="228.6" y1="127" x2="238.76" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

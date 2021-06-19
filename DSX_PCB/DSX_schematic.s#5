@@ -9578,8 +9578,8 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="GND7" gate="1" x="106.68" y="134.62" smashed="yes">
 <attribute name="VALUE" x="104.14" y="132.08" size="1.778" layer="96"/>
 </instance>
-<instance part="GND8" gate="1" x="175.26" y="132.08" smashed="yes">
-<attribute name="VALUE" x="172.72" y="129.54" size="1.778" layer="96"/>
+<instance part="GND8" gate="1" x="162.56" y="132.08" smashed="yes">
+<attribute name="VALUE" x="160.02" y="129.54" size="1.778" layer="96"/>
 </instance>
 <instance part="P+2" gate="1" x="132.08" y="149.86" smashed="yes">
 <attribute name="VALUE" x="134.62" y="152.4" size="1.778" layer="96" rot="R180"/>
@@ -9641,7 +9641,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="J3" gate="G$1" pin="9"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="175.26" y1="134.62" x2="182.88" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="134.62" x2="182.88" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="18"/>
@@ -9765,13 +9765,6 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="182.88" y1="99.06" x2="167.64" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DO1_M" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="21"/>
-<wire x1="182.88" y1="119.38" x2="167.64" y2="119.38" width="0.1524" layer="91"/>
-<label x="167.64" y="119.38" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="DO1_T" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="9"/>
@@ -9792,9 +9785,10 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="P+1" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<wire x1="101.6" y1="124.46" x2="119.38" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="124.46" x2="119.38" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="124.46" x2="119.38" y2="127" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
+<pinref part="J5" gate="G$1" pin="18"/>
 </segment>
 </net>
 <net name="AI1_T" class="0">
@@ -9883,9 +9877,9 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="PWM1_M" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="17"/>
-<wire x1="182.88" y1="124.46" x2="167.64" y2="124.46" width="0.1524" layer="91"/>
-<label x="167.64" y="124.46" size="1.778" layer="95"/>
+<wire x1="182.88" y1="129.54" x2="167.64" y2="129.54" width="0.1524" layer="91"/>
+<label x="167.64" y="129.54" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="13"/>
 </segment>
 </net>
 <net name="PWM2_M" class="0">
@@ -9909,33 +9903,6 @@ Source: AVX .. aphvc.pdf</description>
 <label x="231.14" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="AI1_M" class="0">
-<segment>
-<pinref part="J5" gate="G$1" pin="38"/>
-<wire x1="99.06" y1="99.06" x2="111.76" y2="99.06" width="0.1524" layer="91"/>
-<label x="104.14" y="99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="AI2_M" class="0">
-<segment>
-<pinref part="J5" gate="G$1" pin="36"/>
-<wire x1="99.06" y1="101.6" x2="111.76" y2="101.6" width="0.1524" layer="91"/>
-<label x="104.14" y="101.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="AI3_M" class="0">
-<segment>
-<pinref part="J5" gate="G$1" pin="34"/>
-<wire x1="99.06" y1="104.14" x2="111.76" y2="104.14" width="0.1524" layer="91"/>
-<label x="104.14" y="104.14" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="AI4_M" class="0">
-<segment>
-<wire x1="101.6" y1="106.68" x2="111.76" y2="106.68" width="0.1524" layer="91"/>
-<label x="104.14" y="106.68" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="AI4_T" class="0">
 <segment>
 <pinref part="J7" gate="G$1" pin="10"/>
@@ -9948,20 +9915,6 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="J7" gate="G$1" pin="6"/>
 <wire x1="53.34" y1="132.08" x2="43.18" y2="132.08" width="0.1524" layer="91"/>
 <label x="43.18" y="132.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="AO1_M" class="0">
-<segment>
-<pinref part="J5" gate="G$1" pin="30"/>
-<wire x1="99.06" y1="109.22" x2="111.76" y2="109.22" width="0.1524" layer="91"/>
-<label x="104.14" y="109.22" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="AO2_M" class="0">
-<segment>
-<pinref part="J5" gate="G$1" pin="28"/>
-<wire x1="99.06" y1="111.76" x2="111.76" y2="111.76" width="0.1524" layer="91"/>
-<label x="104.14" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ENCA_T" class="0">
@@ -10025,6 +9978,51 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="J3" gate="G$1" pin="8"/>
 <wire x1="190.5" y1="137.16" x2="205.74" y2="137.16" width="0.1524" layer="91"/>
 <label x="198.12" y="137.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DO1_M" class="0">
+<segment>
+<wire x1="182.88" y1="124.46" x2="167.64" y2="124.46" width="0.1524" layer="91"/>
+<label x="167.64" y="124.46" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="17"/>
+</segment>
+</net>
+<net name="AI1_M" class="0">
+<segment>
+<wire x1="132.08" y1="109.22" x2="144.78" y2="109.22" width="0.1524" layer="91"/>
+<label x="137.16" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AI2_M" class="0">
+<segment>
+<wire x1="132.08" y1="111.76" x2="144.78" y2="111.76" width="0.1524" layer="91"/>
+<label x="137.16" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AI3_M" class="0">
+<segment>
+<wire x1="132.08" y1="114.3" x2="144.78" y2="114.3" width="0.1524" layer="91"/>
+<label x="137.16" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AI4_M" class="0">
+<segment>
+<wire x1="132.08" y1="116.84" x2="144.78" y2="116.84" width="0.1524" layer="91"/>
+<label x="137.16" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AO1_M" class="0">
+<segment>
+<wire x1="99.06" y1="106.68" x2="111.76" y2="106.68" width="0.1524" layer="91"/>
+<label x="104.14" y="106.68" size="1.778" layer="95"/>
+<pinref part="J5" gate="G$1" pin="32"/>
+</segment>
+</net>
+<net name="AO2_M" class="0">
+<segment>
+<wire x1="167.64" y1="132.08" x2="182.88" y2="132.08" width="0.1524" layer="91"/>
+<label x="167.64" y="132.08" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="11"/>
 </segment>
 </net>
 </nets>
