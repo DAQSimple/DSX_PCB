@@ -9569,8 +9569,8 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="GND3" gate="1" x="144.78" y="147.32" smashed="yes">
 <attribute name="VALUE" x="142.24" y="144.78" size="1.778" layer="96"/>
 </instance>
-<instance part="GND4" gate="1" x="200.66" y="119.38" smashed="yes">
-<attribute name="VALUE" x="198.12" y="116.84" size="1.778" layer="96"/>
+<instance part="GND4" gate="1" x="203.2" y="119.38" smashed="yes">
+<attribute name="VALUE" x="200.66" y="116.84" size="1.778" layer="96"/>
 </instance>
 <instance part="GND6" gate="1" x="78.74" y="119.38" smashed="yes">
 <attribute name="VALUE" x="76.2" y="116.84" size="1.778" layer="96"/>
@@ -9626,7 +9626,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="J3" gate="G$1" pin="20"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="200.66" y1="121.92" x2="190.5" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="121.92" x2="190.5" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="19"/>
@@ -9978,20 +9978,6 @@ Source: AVX .. aphvc.pdf</description>
 <label x="231.14" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$64" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="2"/>
-<wire x1="228.6" y1="142.24" x2="238.76" y2="142.24" width="0.1524" layer="91"/>
-<label x="231.14" y="142.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$65" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="1"/>
-<wire x1="228.6" y1="144.78" x2="238.76" y2="144.78" width="0.1524" layer="91"/>
-<label x="231.14" y="144.78" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="CS_T" class="0">
 <segment>
 <pinref part="J7" gate="G$1" pin="15"/>
@@ -10032,6 +10018,13 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="J7" gate="G$1" pin="3"/>
 <wire x1="53.34" y1="139.7" x2="43.18" y2="139.7" width="0.1524" layer="91"/>
 <label x="43.18" y="139.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="5V_USB" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="8"/>
+<wire x1="190.5" y1="137.16" x2="205.74" y2="137.16" width="0.1524" layer="91"/>
+<label x="198.12" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
