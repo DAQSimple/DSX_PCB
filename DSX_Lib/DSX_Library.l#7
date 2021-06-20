@@ -4891,43 +4891,15 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TBP01R1-508-18BE" prefix="J">
+<deviceset name="1X18-MALE-RECEPTACLE" prefix="J">
 <description> &lt;a href="https://pricing.snapeda.com/parts/TBP01R1-508-18BE/CUI%20Devices/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="TBP01R1-508-18BE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CUI_TBP01R1-508-18BE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
+<device name="">
 <technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/terminal-blocks/tbp01r1-508-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM"/>
-<attribute name="DESCRIPTION" value="2~24 Poles, Pluggable, Receptacle, Horizontal, 5.08 Pitch, Terminal Block Connector"/>
-<attribute name="MF" value="CUI Devices"/>
-<attribute name="MP" value="TBP01R1-508-18BE"/>
-<attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
