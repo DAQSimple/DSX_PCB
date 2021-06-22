@@ -6577,7 +6577,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </instance>
 <instance part="J4" gate="G$1" x="218.44" y="124.46" smashed="yes" rot="R180">
 <attribute name="NAME" x="224.02" y="99.06" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="223.52" y="149.86" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="J7" gate="G$1" x="60.96" y="121.92" smashed="yes">
 <attribute name="NAME" x="55.38" y="147.32" size="1.778" layer="95"/>
@@ -7171,7 +7170,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="266.7" y1="111.76" x2="266.7" y2="78.74" width="0.254" layer="97"/>
 <wire x1="266.7" y1="78.74" x2="205.74" y2="78.74" width="0.254" layer="97"/>
 <wire x1="205.74" y1="78.74" x2="205.74" y2="111.76" width="0.254" layer="97"/>
-<text x="208.28" y="111.76" size="1.778" layer="97">DEBUG LEDS</text>
+<text x="208.28" y="111.76" size="2.54" layer="97">DEBUG LEDS</text>
+<wire x1="134.62" y1="114.3" x2="200.66" y2="114.3" width="0.254" layer="97"/>
+<wire x1="200.66" y1="114.3" x2="200.66" y2="73.66" width="0.254" layer="97"/>
+<wire x1="200.66" y1="73.66" x2="134.62" y2="73.66" width="0.254" layer="97"/>
+<wire x1="134.62" y1="73.66" x2="134.62" y2="114.3" width="0.254" layer="97"/>
+<text x="137.16" y="114.3" size="2.54" layer="97">FRONT PANEL</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -7470,41 +7474,41 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="NAME" x="76.197159375" y="74.1797" size="1.778990625" layer="95"/>
 <attribute name="VALUE" x="76.1994" y="30.4773" size="1.778209375" layer="96"/>
 </instance>
-<instance part="R46" gate="G$1" x="154.94" y="104.14" smashed="yes">
-<attribute name="NAME" x="151.13" y="105.6386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="151.13" y="100.838" size="1.778" layer="96"/>
+<instance part="R46" gate="G$1" x="160.02" y="104.14" smashed="yes">
+<attribute name="NAME" x="156.21" y="105.6386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="156.21" y="100.838" size="1.778" layer="96"/>
 </instance>
-<instance part="R47" gate="G$1" x="154.94" y="93.98" smashed="yes">
-<attribute name="NAME" x="151.13" y="95.4786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="151.13" y="90.678" size="1.778" layer="96"/>
+<instance part="R47" gate="G$1" x="160.02" y="93.98" smashed="yes">
+<attribute name="NAME" x="156.21" y="95.4786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="156.21" y="90.678" size="1.778" layer="96"/>
 </instance>
-<instance part="FAULT_LED+" gate="1" x="162.56" y="106.68" smashed="yes">
-<attribute name="NAME" x="160.02" y="109.22" size="1.27" layer="95"/>
+<instance part="FAULT_LED+" gate="1" x="167.64" y="106.68" smashed="yes">
+<attribute name="NAME" x="165.1" y="109.22" size="1.27" layer="95"/>
 </instance>
-<instance part="PWR_GOOD_LED+" gate="1" x="162.56" y="96.52" smashed="yes">
-<attribute name="NAME" x="160.02" y="99.06" size="1.27" layer="95"/>
+<instance part="PWR_GOOD_LED+" gate="1" x="167.64" y="96.52" smashed="yes">
+<attribute name="NAME" x="165.1" y="99.06" size="1.27" layer="95"/>
 </instance>
-<instance part="PWR_GOOD_LED-" gate="1" x="180.34" y="96.52" smashed="yes">
-<attribute name="NAME" x="177.8" y="99.06" size="1.27" layer="95"/>
+<instance part="PWR_GOOD_LED-" gate="1" x="185.42" y="96.52" smashed="yes">
+<attribute name="NAME" x="182.88" y="99.06" size="1.27" layer="95"/>
 </instance>
-<instance part="FAULT_LED-" gate="1" x="180.34" y="106.68" smashed="yes">
-<attribute name="NAME" x="177.8" y="109.22" size="1.27" layer="95"/>
+<instance part="FAULT_LED-" gate="1" x="185.42" y="106.68" smashed="yes">
+<attribute name="NAME" x="182.88" y="109.22" size="1.27" layer="95"/>
 </instance>
-<instance part="GND38" gate="1" x="187.96" y="78.74" smashed="yes">
-<attribute name="VALUE" x="185.42" y="76.2" size="1.778" layer="96"/>
+<instance part="GND38" gate="1" x="193.04" y="78.74" smashed="yes">
+<attribute name="VALUE" x="190.5" y="76.2" size="1.778" layer="96"/>
 </instance>
-<instance part="RESET_SW+" gate="1" x="162.56" y="86.36" smashed="yes">
-<attribute name="NAME" x="160.02" y="88.9" size="1.27" layer="95"/>
+<instance part="RESET_SW+" gate="1" x="167.64" y="86.36" smashed="yes">
+<attribute name="NAME" x="165.1" y="88.9" size="1.27" layer="95"/>
 </instance>
-<instance part="RESET_SW-" gate="1" x="180.34" y="86.36" smashed="yes">
-<attribute name="NAME" x="177.8" y="88.9" size="1.27" layer="95"/>
+<instance part="RESET_SW-" gate="1" x="185.42" y="86.36" smashed="yes">
+<attribute name="NAME" x="182.88" y="88.9" size="1.27" layer="95"/>
 </instance>
-<instance part="+3V16" gate="G$1" x="134.62" y="93.98" smashed="yes" rot="R90">
-<attribute name="VALUE" x="132.08" y="96.52" size="1.778" layer="96" rot="R270"/>
+<instance part="+3V16" gate="G$1" x="139.7" y="93.98" smashed="yes" rot="R90">
+<attribute name="VALUE" x="137.16" y="96.52" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R48" gate="G$1" x="142.24" y="88.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="140.7414" y="85.09" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="145.542" y="85.09" size="1.778" layer="96" rot="R90"/>
+<instance part="R48" gate="G$1" x="147.32" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="145.8214" y="85.09" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="150.622" y="85.09" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -7694,17 +7698,17 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </segment>
 <segment>
 <pinref part="FAULT_LED-" gate="1" pin="MP"/>
-<wire x1="180.34" y1="104.14" x2="187.96" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="104.14" x2="193.04" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="GND38" gate="1" pin="GND"/>
-<wire x1="187.96" y1="104.14" x2="187.96" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="104.14" x2="193.04" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="RESET_SW-" gate="1" pin="MP"/>
-<wire x1="187.96" y1="93.98" x2="187.96" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="83.82" x2="187.96" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="83.82" x2="187.96" y2="83.82" width="0.1524" layer="91"/>
-<junction x="187.96" y="83.82"/>
+<wire x1="193.04" y1="93.98" x2="193.04" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="83.82" x2="193.04" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="83.82" x2="193.04" y2="83.82" width="0.1524" layer="91"/>
+<junction x="193.04" y="83.82"/>
 <pinref part="PWR_GOOD_LED-" gate="1" pin="MP"/>
-<wire x1="180.34" y1="93.98" x2="187.96" y2="93.98" width="0.1524" layer="91"/>
-<junction x="187.96" y="93.98"/>
+<wire x1="185.42" y1="93.98" x2="193.04" y2="93.98" width="0.1524" layer="91"/>
+<junction x="193.04" y="93.98"/>
 </segment>
 </net>
 <net name="RMA4" class="0">
@@ -8138,11 +8142,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </segment>
 <segment>
 <pinref part="R47" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="93.98" x2="142.24" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="93.98" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="+3V16" gate="G$1" pin="+3V3"/>
 <pinref part="R48" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="93.98" x2="137.16" y2="93.98" width="0.1524" layer="91"/>
-<junction x="142.24" y="93.98"/>
+<wire x1="147.32" y1="93.98" x2="142.24" y2="93.98" width="0.1524" layer="91"/>
+<junction x="147.32" y="93.98"/>
 </segment>
 </net>
 <net name="N$41" class="0">
@@ -8403,29 +8407,29 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <pinref part="FAULT_LED+" gate="1" pin="MP"/>
 <pinref part="R46" gate="G$1" pin="2"/>
-<wire x1="162.56" y1="104.14" x2="160.02" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="104.14" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
 <pinref part="PWR_GOOD_LED+" gate="1" pin="MP"/>
 <pinref part="R47" gate="G$1" pin="2"/>
-<wire x1="162.56" y1="93.98" x2="160.02" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RESET" class="0">
 <segment>
 <pinref part="RESET_SW+" gate="1" pin="MP"/>
-<wire x1="162.56" y1="83.82" x2="142.24" y2="83.82" width="0.1524" layer="91"/>
-<label x="147.32" y="83.82" size="1.778" layer="95"/>
+<wire x1="167.64" y1="83.82" x2="147.32" y2="83.82" width="0.1524" layer="91"/>
+<label x="152.4" y="83.82" size="1.778" layer="95"/>
 <pinref part="R48" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="FAULT_LED" class="0">
 <segment>
 <pinref part="R46" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="104.14" x2="134.62" y2="104.14" width="0.1524" layer="91"/>
-<label x="134.62" y="104.14" size="1.778" layer="95"/>
+<wire x1="154.94" y1="104.14" x2="139.7" y2="104.14" width="0.1524" layer="91"/>
+<label x="139.7" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
