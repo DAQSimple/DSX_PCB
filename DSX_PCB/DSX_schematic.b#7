@@ -2698,19 +2698,19 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="52.54" y="92.365" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="FAULT_LED+" library="DSX_Library" package="LSP10" value="SOLDERPAD" x="23" y="93" smashed="yes" rot="R90">
-<attribute name="NAME" x="21.73" y="91.73" size="0.635" layer="25" rot="R90"/>
+<attribute name="NAME" x="21.73" y="91.23" size="0.635" layer="25" rot="R90"/>
 <attribute name="VALUE" x="22.746" y="93" size="0.0254" layer="27" rot="R90"/>
 </element>
 <element name="PWR_GOOD_LED+" library="DSX_Library" package="LSP10" value="SOLDERPAD" x="33" y="93" smashed="yes" rot="R90">
-<attribute name="NAME" x="31.73" y="91.73" size="0.635" layer="25" rot="R90"/>
+<attribute name="NAME" x="31.73" y="89.23" size="0.635" layer="25" rot="R90"/>
 <attribute name="VALUE" x="32.746" y="93" size="0.0254" layer="27" rot="R90"/>
 </element>
 <element name="PWR_GOOD_LED-" library="DSX_Library" package="LSP10" value="SOLDERPAD" x="38" y="93" smashed="yes" rot="R90">
-<attribute name="NAME" x="36.73" y="91.73" size="0.635" layer="25" rot="R90"/>
+<attribute name="NAME" x="36.73" y="89.23" size="0.635" layer="25" rot="R90"/>
 <attribute name="VALUE" x="37.746" y="93" size="0.0254" layer="27" rot="R90"/>
 </element>
 <element name="FAULT_LED-" library="DSX_Library" package="LSP10" value="SOLDERPAD" x="28" y="93" smashed="yes" rot="R90">
-<attribute name="NAME" x="26.73" y="91.73" size="0.635" layer="25" rot="R90"/>
+<attribute name="NAME" x="26.73" y="91.23" size="0.635" layer="25" rot="R90"/>
 <attribute name="VALUE" x="27.746" y="93" size="0.0254" layer="27" rot="R90"/>
 </element>
 <element name="RESET_SW+" library="DSX_Library" package="LSP10" value="SOLDERPAD" x="69" y="93" smashed="yes" rot="R90">
@@ -3847,8 +3847,10 @@ design rules under a new name.</description>
 <signal name="N$24">
 <contactref element="R47" pad="1"/>
 </signal>
-<signal name="N$25">
+<signal name="FAULT_LED">
 <contactref element="R46" pad="1"/>
+<contactref element="J5" pad="37"/>
+<wire x1="16.5" y1="20.28" x2="45" y2="92.05" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

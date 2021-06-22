@@ -6459,7 +6459,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="U1" library="DSX_Library" deviceset="ILQ615-4" device="ILQ615" package3d_urn="urn:adsk.eagle:package:29448252/1"/>
 <part name="U2" library="DSX_Library" deviceset="ILQ615-4" device="ILQ615" package3d_urn="urn:adsk.eagle:package:29448252/1"/>
 <part name="U3" library="DSX_Library" deviceset="ILQ615-4" device="ILQ615" package3d_urn="urn:adsk.eagle:package:29448252/1"/>
-<part name="R46" library="DSX_Library" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="43R"/>
+<part name="R46" library="DSX_Library" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="54.9R"/>
 <part name="R47" library="DSX_Library" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100R"/>
 <part name="FAULT_LED+" library="DSX_Library" deviceset="SOLDERPAD" device=""/>
 <part name="PWR_GOOD_LED+" library="DSX_Library" deviceset="SOLDERPAD" device=""/>
@@ -6468,6 +6468,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="RESET_SW+" library="DSX_Library" deviceset="SOLDERPAD" device=""/>
 <part name="RESET_SW-" library="DSX_Library" deviceset="SOLDERPAD" device=""/>
+<part name="+3V16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="R48" library="DSX_Library" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4k7"/>
 </parts>
 <sheets>
 <sheet>
@@ -7497,6 +7499,13 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="RESET_SW-" gate="1" x="180.34" y="86.36" smashed="yes">
 <attribute name="NAME" x="177.8" y="88.9" size="1.27" layer="95"/>
 </instance>
+<instance part="+3V16" gate="G$1" x="134.62" y="93.98" smashed="yes" rot="R90">
+<attribute name="VALUE" x="132.08" y="96.52" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R48" gate="G$1" x="142.24" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="140.7414" y="85.09" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="145.542" y="85.09" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8127,6 +8136,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="U3" gate="G$1" pin="CO3"/>
 <pinref part="U3" gate="G$1" pin="CO4"/>
 </segment>
+<segment>
+<pinref part="R47" gate="G$1" pin="1"/>
+<wire x1="149.86" y1="93.98" x2="142.24" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="+3V16" gate="G$1" pin="+3V3"/>
+<pinref part="R48" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="93.98" x2="137.16" y2="93.98" width="0.1524" layer="91"/>
+<junction x="142.24" y="93.98"/>
+</segment>
 </net>
 <net name="N$41" class="0">
 <segment>
@@ -8396,16 +8413,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="162.56" y1="93.98" x2="160.02" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$23" class="0">
+<net name="RESET" class="0">
 <segment>
 <pinref part="RESET_SW+" gate="1" pin="MP"/>
-<wire x1="162.56" y1="83.82" x2="139.7" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$24" class="0">
-<segment>
-<pinref part="R47" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="93.98" x2="139.7" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="83.82" x2="142.24" y2="83.82" width="0.1524" layer="91"/>
+<label x="147.32" y="83.82" size="1.778" layer="95"/>
+<pinref part="R48" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="FAULT_LED" class="0">
