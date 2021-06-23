@@ -4250,23 +4250,18 @@ Source: www.fairchildsemi.com</description>
 <package name="CAPAE400X550N" urn="urn:adsk.eagle:footprint:29448030/1" locally_modified="yes">
 <description>ECAP (Aluminum Electrolytic Capacitor), 4.00 X 5.50 mm body
 &lt;p&gt;ECAP (Aluminum Electrolytic Capacitor) package with body size 4.00 X 5.50 mm&lt;/p&gt;</description>
-<wire x1="-2" y1="1.5099" x2="-2" y2="1.628" width="0.12" layer="21"/>
-<wire x1="-2" y1="1.628" x2="-1.628" y2="2" width="0.12" layer="21"/>
-<wire x1="-1.628" y1="2" x2="2" y2="2" width="0.12" layer="21"/>
-<wire x1="2" y1="2" x2="2" y2="1.5099" width="0.12" layer="21"/>
-<wire x1="-2" y1="-1.5099" x2="-2" y2="-1.628" width="0.12" layer="21"/>
-<wire x1="-2" y1="-1.628" x2="-1.628" y2="-2" width="0.12" layer="21"/>
-<wire x1="-1.628" y1="-2" x2="2" y2="-2" width="0.12" layer="21"/>
-<wire x1="2" y1="-2" x2="2" y2="-1.5099" width="0.12" layer="21"/>
-<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.12" layer="51"/>
-<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.12" layer="51"/>
-<wire x1="-2" y1="2" x2="2" y2="2" width="0.12" layer="51"/>
-<wire x1="2" y1="2" x2="2" y2="-2" width="0.12" layer="51"/>
 <smd name="1" x="-2.1" y="0" dx="3.1118" dy="2.5118" layer="1"/>
 <smd name="2" x="2.1" y="0" dx="3.1118" dy="2.5118" layer="1"/>
 <text x="0" y="2.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 <wire x1="2.413" y1="1.905" x2="2.921" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="-1.524" x2="-2.032" y2="1.524" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="1.524" x2="-1.524" y2="2.032" width="0.127" layer="21"/>
+<wire x1="-1.524" y1="2.032" x2="2.032" y2="2.032" width="0.127" layer="21"/>
+<wire x1="2.032" y1="2.032" x2="2.032" y2="-2.032" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="-1.524" x2="-1.524" y2="-2.032" width="0.127" layer="21"/>
+<wire x1="-1.524" y1="-2.032" x2="-1.397" y2="-2.032" width="0.127" layer="21"/>
+<wire x1="-1.397" y1="-2.032" x2="2.032" y2="-2.032" width="0.127" layer="21"/>
 </package>
 <package name="HDRV18W64P254_1X18_1016X508X838B" urn="urn:adsk.eagle:footprint:29448043/1">
 <description>Single-row, 18-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) col pitch, 5.84 mm mating length, 10.16 X 5.08 X 8.38 mm body

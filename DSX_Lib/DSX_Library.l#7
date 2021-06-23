@@ -5988,7 +5988,7 @@ Package centre and &amp;lt;NAME &amp; &amp;lt;VALUE placed by librarian@cadsoft.
 </pinmapping>
 </spice>
 </deviceset>
-<deviceset name="GREEN-LED-SMT">
+<deviceset name="GREEN-LED-SMT" prefix="LD">
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
