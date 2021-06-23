@@ -1767,31 +1767,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package3d>
 </packages3d>
 </library>
-<library name="testpad" urn="urn:adsk.eagle:library:385">
-<description>&lt;b&gt;Test Pins/Pads&lt;/b&gt;&lt;p&gt;
-Cream on SMD OFF.&lt;br&gt;
-new: Attribute TP_SIGNAL_NAME&lt;br&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="B1,27" urn="urn:adsk.eagle:footprint:27900/1" library_version="3">
-<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
-<wire x1="-0.635" y1="0" x2="0.635" y2="0" width="0.0024" layer="37"/>
-<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.0024" layer="37"/>
-<smd name="TP" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100" cream="no"/>
-<text x="-0.635" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-0.635" y="-0.762" size="0.0254" layer="27">&gt;VALUE</text>
-<text x="-0.635" y="-1.905" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="B1,27" urn="urn:adsk.eagle:package:27944/2" type="box" library_version="3">
-<description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="B1,27"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2767,18 +2742,6 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="55" y="93" size="0.5" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="57.54" y="92.365" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="TP-5V" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="84" y="32" smashed="yes">
-<attribute name="NAME" x="83.365" y="33.016" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="84" y="32" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="84" y="32" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="83.365" y="31.238" size="0.0254" layer="27"/>
-</element>
-<element name="TP_GND" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="TPB1,27" x="84" y="28" smashed="yes">
-<attribute name="NAME" x="83.365" y="29.016" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="19" x="84" y="28" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="84" y="28" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="83.365" y="27.238" size="0.0254" layer="27"/>
-</element>
 </elements>
 <signals>
 <signal name="DI1_M">
@@ -2878,7 +2841,6 @@ design rules under a new name.</description>
 <contactref element="PWR_GOOD_LED-" pad="MP"/>
 <contactref element="J8" pad="7"/>
 <contactref element="J8" pad="6"/>
-<contactref element="TP_GND" pad="TP"/>
 <wire x1="85" y1="80.85" x2="85" y2="85.85" width="0" layer="19" extent="1-1"/>
 <wire x1="85" y1="75.85" x2="85" y2="80.85" width="0" layer="19" extent="1-1"/>
 <wire x1="74" y1="93" x2="85" y2="85.85" width="0" layer="19" extent="1-1"/>
@@ -2953,7 +2915,6 @@ design rules under a new name.</description>
 <wire x1="80" y1="43.14" x2="72.38" y2="49.74" width="0" layer="19" extent="1-1"/>
 <wire x1="5" y1="25.16" x2="10.55" y2="42.5" width="0" layer="19" extent="1-1"/>
 <wire x1="92" y1="5" x2="65.05" y2="20" width="0" layer="19" extent="1-1"/>
-<wire x1="84" y1="28" x2="5" y2="25.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DI4_M">
 <contactref element="R10" pad="1"/>
@@ -3104,7 +3065,6 @@ design rules under a new name.</description>
 <contactref element="J4" pad="17"/>
 <contactref element="J7" pad="2"/>
 <contactref element="J8" pad="5"/>
-<contactref element="TP-5V" pad="TP"/>
 <wire x1="73.3717" y1="88.075" x2="92" y2="86.28" width="0" layer="19" extent="1-1"/>
 <wire x1="73.3717" y1="76.575" x2="73.3717" y2="88.075" width="0" layer="19" extent="1-1"/>
 <wire x1="24.12" y1="45.68" x2="73.3717" y2="76.575" width="0" layer="19" extent="1-1"/>
@@ -3113,7 +3073,6 @@ design rules under a new name.</description>
 <wire x1="39.4902" y1="22.75" x2="39.4902" y2="26.75" width="0" layer="19" extent="1-1"/>
 <wire x1="39.4902" y1="18.75" x2="39.4902" y2="22.75" width="0" layer="19" extent="1-1"/>
 <wire x1="5" y1="85.64" x2="19.04" y2="45.68" width="0" layer="19" extent="1-1"/>
-<wire x1="84" y1="32" x2="39.4902" y2="18.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LMA12">
 <contactref element="R17" pad="2"/>
