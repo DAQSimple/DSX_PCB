@@ -6952,13 +6952,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="J7" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="5V_USB" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="8"/>
-<wire x1="190.5" y1="137.16" x2="205.74" y2="137.16" width="0.1524" layer="91"/>
-<label x="198.12" y="137.16" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="DO1_M" class="0">
 <segment>
 <wire x1="182.88" y1="124.46" x2="167.64" y2="124.46" width="0.1524" layer="91"/>
