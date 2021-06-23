@@ -3923,9 +3923,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="68.75" y1="72.5" x2="67.75" y2="72.5" width="0.127" layer="1"/>
 <wire x1="68.75" y1="60.5" x2="68.75" y2="72.5" width="0.127" layer="1"/>
 <wire x1="69.25" y1="60" x2="68.75" y2="60.5" width="0.127" layer="1"/>
-<wire x1="69.25" y1="50.25" x2="69.25" y2="60" width="0.127" layer="1"/>
-<wire x1="68.75" y1="49.75" x2="69.25" y2="50.25" width="0.127" layer="1"/>
-<wire x1="68.75" y1="36.75" x2="68.75" y2="49.75" width="0.127" layer="1"/>
+<wire x1="69.25" y1="52.35" x2="69.25" y2="60" width="0.127" layer="1"/>
+<wire x1="68.75" y1="51.85" x2="69.25" y2="52.35" width="0.127" layer="1"/>
+<wire x1="68.75" y1="36.75" x2="68.75" y2="51.85" width="0.127" layer="1"/>
 <wire x1="69" y1="36.5" x2="68.75" y2="36.75" width="0.127" layer="1"/>
 <wire x1="69" y1="31.25" x2="69" y2="36.5" width="0.127" layer="1"/>
 <wire x1="67.75" y1="30" x2="69" y2="31.25" width="0.127" layer="16"/>
@@ -4733,12 +4733,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="69.75" y1="5.75" x2="71.25" y2="4.25" width="0.127" layer="1"/>
 <wire x1="69.75" y1="37.5" x2="69.75" y2="5.75" width="0.127" layer="1"/>
 <wire x1="69.25" y1="38" x2="69.75" y2="37.5" width="0.127" layer="1"/>
-<wire x1="69.25" y1="49.5" x2="69.25" y2="38" width="0.127" layer="1"/>
-<wire x1="70.75" y1="51" x2="69.25" y2="49.5" width="0.127" layer="16"/>
-<wire x1="77.25" y1="51" x2="70.75" y2="51" width="0.127" layer="16"/>
+<wire x1="69.25" y1="50.7" x2="69.25" y2="38" width="0.127" layer="1"/>
+<wire x1="69.55" y1="51" x2="69.25" y2="50.7" width="0.127" layer="16"/>
+<wire x1="77.25" y1="51" x2="69.55" y2="51" width="0.127" layer="16"/>
 <wire x1="71.25" y1="4.25" x2="71.27" y2="4.19" width="0.127" layer="1"/>
 <wire x1="77.25" y1="51" x2="77.46" y2="50.76" width="0.127" layer="16"/>
-<via x="69.25" y="49.5" extent="1-16" drill="0.3"/>
+<via x="69.25" y="50.7" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="PWM2_M">
 <contactref element="J5" pad="15"/>

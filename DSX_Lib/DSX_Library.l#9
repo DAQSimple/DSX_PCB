@@ -4351,6 +4351,57 @@ Source: www.fairchildsemi.com</description>
 <text x="0" y="1.8457" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-11.075" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
+<package name="HDRRA18W100P504_1X18_9232X254X556B" urn="urn:adsk.eagle:footprint:29448191/1">
+<description>Single-row, 18-pin Pin Header (Male) Right Angle, 5.04 mm (0.20 in) col pitch, 5.84 mm mating length, 92.32 X 2.54 X 5.56 mm body
+&lt;p&gt;Single-row (1X18), 18-pin Pin Header (Male) Right Angle package with 5.04 mm (0.20 in) col pitch, 1.00 mm lead width, 3.00 mm tail length and 5.84 mm mating length with body size 92.32 X 2.54 X 5.56 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<circle x="-1.7147" y="0" radius="0.25" width="0" layer="21"/>
+<wire x1="89" y1="-4.06" x2="-3.32" y2="-4.06" width="0.12" layer="21"/>
+<wire x1="-3.32" y1="-4.06" x2="-3.32" y2="-1.52" width="0.12" layer="21"/>
+<wire x1="-3.32" y1="-1.52" x2="89" y2="-1.52" width="0.12" layer="21"/>
+<wire x1="89" y1="-1.52" x2="89" y2="-4.06" width="0.12" layer="21"/>
+<wire x1="0" y1="-4.12" x2="0" y2="-9.96" width="0.12" layer="21"/>
+<wire x1="5.04" y1="-4.12" x2="5.04" y2="-9.96" width="0.12" layer="21"/>
+<wire x1="10.08" y1="-4.12" x2="10.08" y2="-9.96" width="0.12" layer="21"/>
+<wire x1="15.12" y1="-4.12" x2="15.12" y2="-9.96" width="0.12" layer="21"/>
+<wire x1="20.16" y1="-4.12" x2="20.16" y2="-9.96" width="0.12" layer="21"/>
+<wire x1="25.2" y1="-4.12" x2="25.2" y2="-9.96" width="0.12" layer="21"/>
+<wire x1="30.24" y1="-4.12" x2="30.24" y2="-9.96" width="0.12" layer="21"/>
+<wire x1="35.28" y1="-4.12" x2="35.28" y2="-9.96" width="0.12" layer="21"/>
+<wire x1="40.32" y1="-4.12" x2="40.32" y2="-9.96" width="0.12" layer="21"/>
+<wire x1="45.36" y1="-4.12" x2="45.36" y2="-9.96" width="0.12" layer="21"/>
+<wire x1="50.4" y1="-4.12" x2="50.4" y2="-9.96" width="0.12" layer="21"/>
+<wire x1="55.44" y1="-4.12" x2="55.44" y2="-9.96" width="0.12" layer="21"/>
+<wire x1="60.48" y1="-4.12" x2="60.48" y2="-9.96" width="0.12" layer="21"/>
+<wire x1="65.52" y1="-4.12" x2="65.52" y2="-9.96" width="0.12" layer="21"/>
+<wire x1="70.56" y1="-4.12" x2="70.56" y2="-9.96" width="0.12" layer="21"/>
+<wire x1="75.6" y1="-4.12" x2="75.6" y2="-9.96" width="0.12" layer="21"/>
+<wire x1="80.64" y1="-4.12" x2="80.64" y2="-9.96" width="0.12" layer="21"/>
+<wire x1="85.68" y1="-4.12" x2="85.68" y2="-9.96" width="0.12" layer="21"/>
+<wire x1="89" y1="-4.06" x2="-3.32" y2="-4.06" width="0.12" layer="51"/>
+<wire x1="-3.32" y1="-4.06" x2="-3.32" y2="-1.52" width="0.12" layer="51"/>
+<wire x1="-3.32" y1="-1.52" x2="89" y2="-1.52" width="0.12" layer="51"/>
+<wire x1="89" y1="-1.52" x2="89" y2="-4.06" width="0.12" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.6142" diameter="2.4213"/>
+<pad name="2" x="5.04" y="0" drill="1.6142" diameter="2.4213"/>
+<pad name="3" x="10.08" y="0" drill="1.6142" diameter="2.4213"/>
+<pad name="4" x="15.12" y="0" drill="1.6142" diameter="2.4213"/>
+<pad name="5" x="20.16" y="0" drill="1.6142" diameter="2.4213"/>
+<pad name="6" x="25.2" y="0" drill="1.6142" diameter="2.4213"/>
+<pad name="7" x="30.24" y="0" drill="1.6142" diameter="2.4213"/>
+<pad name="8" x="35.28" y="0" drill="1.6142" diameter="2.4213"/>
+<pad name="9" x="40.32" y="0" drill="1.6142" diameter="2.4213"/>
+<pad name="10" x="45.36" y="0" drill="1.6142" diameter="2.4213"/>
+<pad name="11" x="50.4" y="0" drill="1.6142" diameter="2.4213"/>
+<pad name="12" x="55.44" y="0" drill="1.6142" diameter="2.4213"/>
+<pad name="13" x="60.48" y="0" drill="1.6142" diameter="2.4213"/>
+<pad name="14" x="65.52" y="0" drill="1.6142" diameter="2.4213"/>
+<pad name="15" x="70.56" y="0" drill="1.6142" diameter="2.4213"/>
+<pad name="16" x="75.6" y="0" drill="1.6142" diameter="2.4213"/>
+<pad name="17" x="80.64" y="0" drill="1.6142" diameter="2.4213"/>
+<pad name="18" x="85.68" y="0" drill="1.6142" diameter="2.4213"/>
+<text x="0" y="1.8457" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-10.595" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="TP08SQ" urn="urn:adsk.eagle:package:27960/1" type="box">
@@ -5442,6 +5493,13 @@ Package centre and &amp;lt;NAME &amp; &amp;lt;VALUE placed by librarian@cadsoft.
 <packageinstance name="HDRRA18W100P508_1X18_9304X254X556B"/>
 </packageinstances>
 </package3d>
+<package3d name="HDRRA18W100P504_1X18_9232X254X556B" urn="urn:adsk.eagle:package:29448189/2" type="model">
+<description>Single-row, 18-pin Pin Header (Male) Right Angle, 5.04 mm (0.20 in) col pitch, 5.84 mm mating length, 92.32 X 2.54 X 5.56 mm body
+&lt;p&gt;Single-row (1X18), 18-pin Pin Header (Male) Right Angle package with 5.04 mm (0.20 in) col pitch, 1.00 mm lead width, 3.00 mm tail length and 5.84 mm mating length with body size 92.32 X 2.54 X 5.56 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="HDRRA18W100P504_1X18_9232X254X556B"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="TP">
@@ -5930,7 +5988,7 @@ Package centre and &amp;lt;NAME &amp; &amp;lt;VALUE placed by librarian@cadsoft.
 </pinmapping>
 </spice>
 </deviceset>
-<deviceset name="GREEN-LED-SMT">
+<deviceset name="GREEN-LED-SMT" prefix="LD">
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
@@ -6290,7 +6348,7 @@ Mon Mar 10 13:32:48 2003 Atmel-Library mit zusätzlich T83C5121-Prozessor im SSO
 <gate name="G$1" symbol="TBP01R1-508-18BE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="1X18-LEFT">
+<device name="1X18LREC" package="HDRRA18W100P504_1X18_9232X254X556B">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -6311,6 +6369,9 @@ Mon Mar 10 13:32:48 2003 Atmel-Library mit zusätzlich T83C5121-Prozessor im SSO
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29448189/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>

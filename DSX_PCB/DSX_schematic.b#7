@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -23,42 +23,42 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
@@ -2018,31 +2018,31 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="51.365" y="21.46" size="1.27" layer="27"/>
 </element>
 <element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="160R" x="52" y="28" smashed="yes">
-<attribute name="NAME" x="51.365" y="29.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="50.665" y="29.07" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="52" y="28" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="52" y="28" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="51.365" y="25.46" size="1.27" layer="27"/>
 </element>
 <element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="160R" x="52" y="32" smashed="yes">
-<attribute name="NAME" x="51.365" y="33.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="51.165" y="32.97" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="52" y="32" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="52" y="32" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="51.365" y="29.46" size="1.27" layer="27"/>
 </element>
 <element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="160R" x="52" y="36" smashed="yes">
-<attribute name="NAME" x="51.365" y="37.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="51.165" y="37.37" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="28" y="36" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="28" y="36" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="51.365" y="33.46" size="1.27" layer="27"/>
 </element>
 <element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="160R" x="52" y="40" smashed="yes">
-<attribute name="NAME" x="51.365" y="41.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="51.165" y="41.17" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="40" y="60" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="40" y="60" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="51.365" y="37.46" size="1.27" layer="27"/>
 </element>
 <element name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="45" y="20" smashed="yes">
-<attribute name="NAME" x="44.365" y="21.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="43.565" y="21.27" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="45" y="20" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="45" y="20" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="44.365" y="17.46" size="1.27" layer="27"/>
@@ -2054,7 +2054,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="44.365" y="21.46" size="1.27" layer="27"/>
 </element>
 <element name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="45" y="28" smashed="yes">
-<attribute name="NAME" x="44.365" y="29.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="45.065" y="29.07" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="45" y="28" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="45" y="28" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="44.365" y="25.46" size="1.27" layer="27"/>
@@ -2072,13 +2072,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="44.365" y="33.46" size="1.27" layer="27"/>
 </element>
 <element name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="45" y="40" smashed="yes">
-<attribute name="NAME" x="44.365" y="41.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="44.065" y="41.27" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="45" y="40" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="45" y="40" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="44.365" y="37.46" size="1.27" layer="27"/>
 </element>
 <element name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="300R" x="52" y="52" smashed="yes">
-<attribute name="NAME" x="51.365" y="53.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="50.765" y="53.17" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="52" y="52" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="52" y="52" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="51.365" y="49.46" size="1.27" layer="27"/>
@@ -2096,7 +2096,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="44.365" y="49.46" size="1.27" layer="27"/>
 </element>
 <element name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="45" y="56" smashed="yes">
-<attribute name="NAME" x="44.365" y="57.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="44.065" y="57.17" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="45" y="56" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="45" y="56" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="44.365" y="53.46" size="1.27" layer="27"/>
@@ -2108,79 +2108,79 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="12.635" y="62.34" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1R\" x="59" y="24" smashed="yes">
-<attribute name="NAME" x="58.365" y="25.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="58.065" y="25.27" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="59" y="24" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="59" y="24" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="58.365" y="21.46" size="1.27" layer="27"/>
 </element>
 <element name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="160R" x="66" y="20" smashed="yes">
-<attribute name="NAME" x="65.365" y="21.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="64.665" y="21.27" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="66" y="20" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="66" y="20" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="65.365" y="17.46" size="1.27" layer="27"/>
 </element>
 <element name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1R" x="59" y="28" smashed="yes">
-<attribute name="NAME" x="58.365" y="29.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="58.165" y="29.07" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="59" y="28" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="59" y="28" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="58.365" y="25.46" size="1.27" layer="27"/>
 </element>
 <element name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="160R" x="66" y="24" smashed="yes">
-<attribute name="NAME" x="65.365" y="25.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="65.765" y="25.17" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="66" y="24" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="66" y="24" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="65.365" y="21.46" size="1.27" layer="27"/>
 </element>
 <element name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1R" x="59" y="32" smashed="yes">
-<attribute name="NAME" x="58.365" y="33.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="57.965" y="32.97" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="59" y="32" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="59" y="32" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="58.365" y="29.46" size="1.27" layer="27"/>
 </element>
 <element name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="160R" x="66" y="28" smashed="yes">
-<attribute name="NAME" x="65.365" y="29.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="65.365" y="29.17" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="66" y="28" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="66" y="28" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="65.365" y="25.46" size="1.27" layer="27"/>
 </element>
 <element name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1R" x="59" y="36" smashed="yes">
-<attribute name="NAME" x="58.365" y="37.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="58.165" y="37.17" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="59" y="36" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="59" y="36" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="58.365" y="33.46" size="1.27" layer="27"/>
 </element>
 <element name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="160R" x="66" y="32" smashed="yes">
-<attribute name="NAME" x="65.365" y="33.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="65.265" y="33.07" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="66" y="32" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="66" y="32" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="65.365" y="29.46" size="1.27" layer="27"/>
 </element>
 <element name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1R" x="59" y="40" smashed="yes">
-<attribute name="NAME" x="58.365" y="41.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="57.865" y="40.97" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="59" y="40" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="59" y="40" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="58.365" y="37.46" size="1.27" layer="27"/>
 </element>
 <element name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="160R" x="66" y="36" smashed="yes">
-<attribute name="NAME" x="65.365" y="37.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="64.465" y="37.17" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="66" y="36" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="66" y="36" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="65.365" y="33.46" size="1.27" layer="27"/>
 </element>
 <element name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1R" x="59" y="44" smashed="yes">
-<attribute name="NAME" x="58.365" y="45.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="59.065" y="44.97" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="59" y="44" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="59" y="44" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="58.365" y="41.46" size="1.27" layer="27"/>
 </element>
 <element name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="160R" x="66" y="40" smashed="yes">
-<attribute name="NAME" x="65.365" y="41.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="65.065" y="41.07" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="66" y="40" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="66" y="40" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="65.365" y="37.46" size="1.27" layer="27"/>
 </element>
 <element name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="160R" x="52" y="44" smashed="yes">
-<attribute name="NAME" x="51.365" y="45.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="51.965" y="44.97" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="52" y="44" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="52" y="44" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="51.365" y="41.46" size="1.27" layer="27"/>
@@ -2192,7 +2192,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="58.365" y="45.46" size="1.27" layer="27"/>
 </element>
 <element name="R35" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="160R" x="66" y="44" smashed="yes">
-<attribute name="NAME" x="65.365" y="45.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="65.565" y="44.97" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="66" y="44" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="66" y="44" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="65.365" y="41.46" size="1.27" layer="27"/>
@@ -2210,13 +2210,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="58.365" y="49.46" size="1.27" layer="27"/>
 </element>
 <element name="R38" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="160R" x="66" y="48" smashed="yes">
-<attribute name="NAME" x="65.365" y="49.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="67.97" y="50.335" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="85" x="66" y="48" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="66" y="48" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="65.365" y="45.46" size="1.27" layer="27"/>
 </element>
 <element name="R39" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="45" y="44" smashed="yes">
-<attribute name="NAME" x="44.365" y="45.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="44.965" y="45.07" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="45" y="44" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="45" y="44" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="44.365" y="41.46" size="1.27" layer="27"/>
@@ -2240,7 +2240,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="51.365" y="57.46" size="1.27" layer="27"/>
 </element>
 <element name="R51" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="45" y="60" smashed="yes">
-<attribute name="NAME" x="44.365" y="61.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="43.865" y="61.17" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="45" y="60" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="45" y="60" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="44.365" y="57.46" size="1.27" layer="27"/>
@@ -2252,7 +2252,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="44.365" y="61.46" size="1.27" layer="27"/>
 </element>
 <element name="R53" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1R" x="38" y="56" smashed="yes">
-<attribute name="NAME" x="37.365" y="57.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="36.565" y="56.97" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="38" y="56" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="38" y="56" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="37.365" y="53.46" size="1.27" layer="27"/>
@@ -2284,7 +2284,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="62" y="82.2964" size="1.27" layer="27" align="top-center"/>
 </element>
 <element name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1R" x="62" y="73" smashed="yes">
-<attribute name="NAME" x="61.365" y="74.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="60.565" y="73.97" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="62" y="73" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="62" y="73" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="61.365" y="70.46" size="1.27" layer="27"/>
@@ -2306,7 +2306,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="11.8" y="57.2036" size="1.27" layer="27" rot="R180" align="top-center"/>
 </element>
 <element name="R57" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100R" x="49" y="77" smashed="yes">
-<attribute name="NAME" x="48.365" y="78.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="48.365" y="78.07" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="49" y="103" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="49" y="103" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="48.365" y="74.46" size="1.27" layer="27"/>
@@ -2320,13 +2320,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="56" y="76.7964" size="1.27" layer="27" align="top-center"/>
 </element>
 <element name="R58" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1R" x="55" y="73" smashed="yes">
-<attribute name="NAME" x="54.365" y="74.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="54.565" y="73.97" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="13" y="94" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="13" y="94" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="54.365" y="70.46" size="1.27" layer="27"/>
 </element>
 <element name="R59" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="48" y="73" smashed="yes">
-<attribute name="NAME" x="47.365" y="74.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="47.765" y="74.17" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="0" y="89" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="0" y="89" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="47.365" y="70.46" size="1.27" layer="27"/>
@@ -2356,7 +2356,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="28" y="82.7964" size="1.27" layer="27" align="top-center"/>
 </element>
 <element name="R62" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1R" x="22" y="77" smashed="yes">
-<attribute name="NAME" x="21.365" y="78.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="20.965" y="78.37" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="-20" y="98" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-20" y="98" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="21.365" y="74.46" size="1.27" layer="27"/>
@@ -2404,7 +2404,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="40.865" y="70.46" size="1.27" layer="27"/>
 </element>
 <element name="R68" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="35" y="77" smashed="yes">
-<attribute name="NAME" x="34.365" y="78.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="34.965" y="77.87" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="-19" y="88" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-19" y="88" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="34.365" y="74.46" size="1.27" layer="27"/>
@@ -2426,31 +2426,31 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="88.2036" y="67" size="1.27" layer="27" rot="R90" align="top-center"/>
 </element>
 <element name="R69" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="3k3" x="52" y="16" smashed="yes">
-<attribute name="NAME" x="51.365" y="17.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="50.065" y="17.27" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="52" y="16" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="52" y="16" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="51.365" y="13.46" size="1.27" layer="27"/>
 </element>
 <element name="R70" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="6k65" x="66" y="16" smashed="yes">
-<attribute name="NAME" x="65.365" y="17.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="66.365" y="17.07" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="66" y="16" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="66" y="16" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="65.365" y="13.46" size="1.27" layer="27"/>
 </element>
 <element name="R71" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k" x="59" y="16" smashed="yes">
-<attribute name="NAME" x="58.365" y="17.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="57.565" y="17.17" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="59" y="16" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="59" y="16" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="58.365" y="13.46" size="1.27" layer="27"/>
 </element>
 <element name="R72" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2k" x="59" y="20" smashed="yes">
-<attribute name="NAME" x="58.365" y="21.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="57.965" y="21.17" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="59" y="20" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="59" y="20" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="58.365" y="17.46" size="1.27" layer="27"/>
 </element>
 <element name="R73" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1R" x="45" y="16" smashed="yes">
-<attribute name="NAME" x="44.365" y="17.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="43.965" y="17.07" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="45" y="16" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="45" y="16" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="44.365" y="13.46" size="1.27" layer="27"/>
@@ -2504,7 +2504,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="31" y="51.7964" size="1.27" layer="27" align="top-center"/>
 </element>
 <element name="R80" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220R" x="38" y="44" smashed="yes">
-<attribute name="NAME" x="37.365" y="45.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="37.965" y="44.97" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="20" y="52" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="20" y="52" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="37.365" y="41.46" size="1.27" layer="27"/>
@@ -2514,7 +2514,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="31" y="38.7964" size="1.27" layer="27" align="top-center"/>
 </element>
 <element name="R81" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220R" x="38" y="36" smashed="yes">
-<attribute name="NAME" x="37.365" y="37.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="37.565" y="37.07" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="20" y="44" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="20" y="44" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="37.365" y="33.46" size="1.27" layer="27"/>
@@ -2524,7 +2524,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="31" y="32.7964" size="1.27" layer="27" align="top-center"/>
 </element>
 <element name="R82" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220R" x="38" y="32" smashed="yes">
-<attribute name="NAME" x="37.365" y="33.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="37.165" y="33.07" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="20" y="40" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="20" y="40" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="37.365" y="29.46" size="1.27" layer="27"/>
@@ -2534,7 +2534,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="31" y="64.7964" size="1.27" layer="27" align="top-center"/>
 </element>
 <element name="R83" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220R" x="38" y="52" smashed="yes">
-<attribute name="NAME" x="37.365" y="53.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="37.165" y="53.07" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="20" y="60" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="20" y="60" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="37.365" y="49.46" size="1.27" layer="27"/>
@@ -2544,7 +2544,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="31" y="44.7964" size="1.27" layer="27" align="top-center"/>
 </element>
 <element name="R84" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220R" x="38" y="40" smashed="yes">
-<attribute name="NAME" x="37.365" y="41.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="36.865" y="41.07" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="20" y="49" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="20" y="49" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="37.365" y="37.46" size="1.27" layer="27"/>
@@ -2597,7 +2597,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <element name="U20" library="DSX_Library" package="SOP65P640X110-24N" package3d_urn="urn:adsk.eagle:package:29358222/1" value="16CH_ANALOG_MUX" x="70.5" y="73" smashed="yes">
 <attribute name="MF" value="" x="70.5" y="73" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="70.5" y="73" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="70.5" y="78.1674" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="70.3" y="78.0674" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="OC_FARNELL" value="unknown" x="70.5" y="73" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="70.5" y="73" size="1.778" layer="27" display="off"/>
 <attribute name="POPULARITY" value="0" x="70.5" y="73" size="1.778" layer="27" display="off"/>
@@ -2628,13 +2628,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="65.365" y="49.46" size="1.27" layer="27"/>
 </element>
 <element name="R89" library="DSX_Library" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k" x="59" y="60" smashed="yes">
-<attribute name="NAME" x="58.365" y="61.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="57.665" y="61.17" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="59" y="60" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="59" y="60" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="58.365" y="57.46" size="1.27" layer="27"/>
 </element>
 <element name="R90" library="DSX_Library" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k" x="66" y="56" smashed="yes">
-<attribute name="NAME" x="65.365" y="57.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="64.865" y="57.27" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="66" y="56" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="66" y="56" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="65.365" y="53.46" size="1.27" layer="27"/>
@@ -2658,7 +2658,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="58.365" y="65.46" size="1.27" layer="27"/>
 </element>
 <element name="R94" library="DSX_Library" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="56.2k" x="66" y="64" smashed="yes">
-<attribute name="NAME" x="65.365" y="65.27" size="1.27" layer="25"/>
+<attribute name="NAME" x="64.965" y="65.27" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="66" y="64" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="66" y="64" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="65.365" y="61.46" size="1.27" layer="27"/>

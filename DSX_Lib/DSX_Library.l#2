@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -3400,7 +3400,7 @@ type V234, grid 12.5 mm</description>
 <text x="0" y="2.659" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.905" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="R0805" urn="urn:adsk.eagle:footprint:23045/1">
+<package name="R0805" urn="urn:adsk.eagle:footprint:23045/1" locally_modified="yes">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
 <wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
@@ -3410,8 +3410,8 @@ type V234, grid 12.5 mm</description>
 <wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
 <smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
 <smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-0.635" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-0.635" y="1.27" size="0.889" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-2.032" size="0.889" layer="27">&gt;VALUE</text>
 <rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
 <rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
@@ -4510,6 +4510,39 @@ Source:
 <pad name="14" x="3.81" y="3.81" drill="0.85"/>
 <pad name="15" x="3.81" y="6.35" drill="0.85"/>
 <pad name="16" x="3.81" y="8.89" drill="0.85"/>
+</package>
+<package name="DIP762W53P254L1992H508Q16B" urn="urn:adsk.eagle:footprint:29448254/1">
+<description>16-DIP, 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span, 19.92 X 6.64 X 5.08 mm body
+&lt;p&gt;16-pin DIP package with 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span with body size 19.92 X 6.64 X 5.08 mm&lt;/p&gt;</description>
+<circle x="-4.9972" y="8.89" radius="0.25" width="0" layer="21"/>
+<wire x1="-3.405" y1="9.8272" x2="-3.405" y2="10.035" width="0.12" layer="21"/>
+<wire x1="-3.405" y1="10.035" x2="3.405" y2="10.035" width="0.12" layer="21"/>
+<wire x1="3.405" y1="10.035" x2="3.405" y2="9.8272" width="0.12" layer="21"/>
+<wire x1="-3.405" y1="-9.8272" x2="-3.405" y2="-10.035" width="0.12" layer="21"/>
+<wire x1="-3.405" y1="-10.035" x2="3.405" y2="-10.035" width="0.12" layer="21"/>
+<wire x1="3.405" y1="-10.035" x2="3.405" y2="-9.8272" width="0.12" layer="21"/>
+<wire x1="3.405" y1="-10.035" x2="-3.405" y2="-10.035" width="0.12" layer="51"/>
+<wire x1="-3.405" y1="-10.035" x2="-3.405" y2="10.035" width="0.12" layer="51"/>
+<wire x1="-3.405" y1="10.035" x2="3.405" y2="10.035" width="0.12" layer="51"/>
+<wire x1="3.405" y1="10.035" x2="3.405" y2="-10.035" width="0.12" layer="51"/>
+<pad name="1" x="-3.81" y="8.89" drill="0.7665" diameter="1.3665"/>
+<pad name="2" x="-3.81" y="6.35" drill="0.7665" diameter="1.3665"/>
+<pad name="3" x="-3.81" y="3.81" drill="0.7665" diameter="1.3665"/>
+<pad name="4" x="-3.81" y="1.27" drill="0.7665" diameter="1.3665"/>
+<pad name="5" x="-3.81" y="-1.27" drill="0.7665" diameter="1.3665"/>
+<pad name="6" x="-3.81" y="-3.81" drill="0.7665" diameter="1.3665"/>
+<pad name="7" x="-3.81" y="-6.35" drill="0.7665" diameter="1.3665"/>
+<pad name="8" x="-3.81" y="-8.89" drill="0.7665" diameter="1.3665"/>
+<pad name="9" x="3.81" y="-8.89" drill="0.7665" diameter="1.3665"/>
+<pad name="10" x="3.81" y="-6.35" drill="0.7665" diameter="1.3665"/>
+<pad name="11" x="3.81" y="-3.81" drill="0.7665" diameter="1.3665"/>
+<pad name="12" x="3.81" y="-1.27" drill="0.7665" diameter="1.3665"/>
+<pad name="13" x="3.81" y="1.27" drill="0.7665" diameter="1.3665"/>
+<pad name="14" x="3.81" y="3.81" drill="0.7665" diameter="1.3665"/>
+<pad name="15" x="3.81" y="6.35" drill="0.7665" diameter="1.3665"/>
+<pad name="16" x="3.81" y="8.89" drill="0.7665" diameter="1.3665"/>
+<text x="0" y="10.67" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-10.67" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
@@ -5631,6 +5664,13 @@ Source:
 <packageinstance name="DGK_S-PDSO-G8"/>
 </packageinstances>
 </package3d>
+<package3d name="DIP762W53P254L1992H508Q16B" urn="urn:adsk.eagle:package:29448252/1" type="model">
+<description>16-DIP, 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span, 19.92 X 6.64 X 5.08 mm body
+&lt;p&gt;16-pin DIP package with 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span with body size 19.92 X 6.64 X 5.08 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="DIP762W53P254L1992H508Q16B"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="TP">
@@ -6750,7 +6790,7 @@ Source: http://focus.ti.com/lit/ds/scas794/scas794.pdf</description>
 <gate name="G$1" symbol="ILQ615-4" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="DIP762W51P254L1992H425Q16">
+<device name="ILQ615" package="DIP762W53P254L1992H508Q16B">
 <connects>
 <connect gate="G$1" pin="A1" pad="1"/>
 <connect gate="G$1" pin="A2" pad="3"/>
@@ -6769,15 +6809,11 @@ Source: http://focus.ti.com/lit/ds/scas794/scas794.pdf</description>
 <connect gate="G$1" pin="E3" pad="11"/>
 <connect gate="G$1" pin="E4" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29448252/1"/>
+</package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="DESCRIPTION" value=" Optoisolator Transistor Output 5300Vrms 4 Channel 16-SMD "/>
-<attribute name="MF" value="Vishay Semiconductor"/>
-<attribute name="MP" value="ILQ615-4"/>
-<attribute name="PACKAGE" value="DIP-16 Vishay"/>
-<attribute name="PRICE" value="None"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

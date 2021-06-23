@@ -3050,6 +3050,11 @@ type 0309, grid 2.5 mm</description>
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<wire x1="-1.905" y1="-0.635" x2="-1.905" y2="-0.127" width="0.0254" layer="21"/>
+<wire x1="-2.159" y1="-0.381" x2="-1.651" y2="-0.381" width="0.0254" layer="21"/>
+<wire x1="-2.159" y1="-0.381" x2="-1.651" y2="-0.381" width="0.0254" layer="21"/>
+<wire x1="-2.159" y1="-0.381" x2="-1.651" y2="-0.381" width="0.0254" layer="21"/>
+<wire x1="1.651" y1="-0.381" x2="2.159" y2="-0.381" width="0.0254" layer="21"/>
 </package>
 <package name="1X18-RIGHT" urn="urn:adsk.eagle:footprint:22303/1" locally_modified="yes">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -4417,7 +4422,7 @@ Source: www.fairchildsemi.com</description>
 <text x="-5.334" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-3.556" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="D_R-PDSO-G08" urn="urn:adsk.eagle:footprint:7566792/1">
+<package name="D_R-PDSO-G08" urn="urn:adsk.eagle:footprint:7566792/1" locally_modified="yes">
 <description>&lt;b&gt;PLASTIC SMALL-OUTLINE PACKAGE SO 14&lt;/b&gt; JEDEC MS-012, D Type&lt;p&gt;
 Source: www.ti.com/.. slvs087l.pdf</description>
 <wire x1="-2.35" y1="1.9" x2="2.35" y2="1.9" width="0.2032" layer="21"/>
@@ -4443,6 +4448,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 <rectangle x1="0.485" y1="1.98" x2="0.785" y2="3.05" layer="51" rot="R180"/>
 <rectangle x1="-0.785" y1="1.98" x2="-0.485" y2="3.05" layer="51" rot="R180"/>
 <rectangle x1="-2.055" y1="1.98" x2="-1.755" y2="3.05" layer="51" rot="R180"/>
+<circle x="-1.905" y="-3.81" radius="0.0254" width="0.508" layer="21"/>
 </package>
 <package name="DGK_S-PDSO-G8" urn="urn:adsk.eagle:footprint:7566819/1">
 <description>8-Pin MSOP (DGK) Package&lt;p&gt;
