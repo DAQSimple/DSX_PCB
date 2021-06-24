@@ -242,6 +242,11 @@
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<wire x1="-1.905" y1="-0.635" x2="-1.905" y2="-0.127" width="0.0254" layer="21"/>
+<wire x1="-2.159" y1="-0.381" x2="-1.651" y2="-0.381" width="0.0254" layer="21"/>
+<wire x1="-2.159" y1="-0.381" x2="-1.651" y2="-0.381" width="0.0254" layer="21"/>
+<wire x1="-2.159" y1="-0.381" x2="-1.651" y2="-0.381" width="0.0254" layer="21"/>
+<wire x1="1.651" y1="-0.381" x2="2.159" y2="-0.381" width="0.0254" layer="21"/>
 </package>
 <package name="SOP50P310X100-8N" urn="urn:adsk.eagle:footprint:29358505/1">
 <description>8-SOP, 0.50 mm pitch, 3.10 mm span, 2.00 X 2.30 X 1.00 mm body
@@ -435,7 +440,7 @@
 <text x="0" y="1.8457" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-10.595" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="D_R-PDSO-G08" urn="urn:adsk.eagle:footprint:7566792/1">
+<package name="D_R-PDSO-G08" urn="urn:adsk.eagle:footprint:7566792/1" locally_modified="yes">
 <description>&lt;b&gt;PLASTIC SMALL-OUTLINE PACKAGE SO 14&lt;/b&gt; JEDEC MS-012, D Type&lt;p&gt;
 Source: www.ti.com/.. slvs087l.pdf</description>
 <wire x1="-2.35" y1="1.9" x2="2.35" y2="1.9" width="0.2032" layer="21"/>
@@ -461,6 +466,7 @@ Source: www.ti.com/.. slvs087l.pdf</description>
 <rectangle x1="0.485" y1="1.98" x2="0.785" y2="3.05" layer="51" rot="R180"/>
 <rectangle x1="-0.785" y1="1.98" x2="-0.485" y2="3.05" layer="51" rot="R180"/>
 <rectangle x1="-2.055" y1="1.98" x2="-1.755" y2="3.05" layer="51" rot="R180"/>
+<circle x="-1.905" y="-3.81" radius="0.0254" width="0.508" layer="21"/>
 </package>
 <package name="DIP762W53P254L1992H508Q16B" urn="urn:adsk.eagle:footprint:29448254/1">
 <description>16-DIP, 2.54 mm (0.10 in) pitch, 7.62 mm (0.30 in) span, 19.92 X 6.64 X 5.08 mm body

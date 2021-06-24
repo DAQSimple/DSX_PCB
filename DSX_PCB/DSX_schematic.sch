@@ -7519,11 +7519,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R29" library="DSX_Library" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="56.2k"/>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R12" library="DSX_Library" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="5R6"/>
 <part name="R8" library="DSX_Library" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="5R6"/>
@@ -7565,6 +7560,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="AO2_T" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10505,20 +10505,20 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="GND36" gate="1" x="99.06" y="175.26" smashed="yes" rot="R180">
 <attribute name="VALUE" x="101.6" y="177.8" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+5" gate="1" x="27.94" y="157.48" smashed="yes" rot="R90">
-<attribute name="VALUE" x="25.4" y="160.02" size="1.778" layer="96" rot="R270"/>
+<instance part="+3V9" gate="G$1" x="27.94" y="157.48" smashed="yes" rot="R90">
+<attribute name="VALUE" x="25.4" y="157.48" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="P+6" gate="1" x="27.94" y="101.6" smashed="yes" rot="R90">
-<attribute name="VALUE" x="25.4" y="104.14" size="1.778" layer="96" rot="R270"/>
+<instance part="+3V19" gate="G$1" x="33.02" y="53.34" smashed="yes" rot="R90">
+<attribute name="VALUE" x="30.48" y="53.34" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="P+7" gate="1" x="33.02" y="53.34" smashed="yes" rot="R90">
-<attribute name="VALUE" x="30.48" y="55.88" size="1.778" layer="96" rot="R270"/>
+<instance part="+3V22" gate="G$1" x="33.02" y="25.4" smashed="yes" rot="R90">
+<attribute name="VALUE" x="30.48" y="25.4" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="P+8" gate="1" x="33.02" y="25.4" smashed="yes" rot="R90">
-<attribute name="VALUE" x="30.48" y="27.94" size="1.778" layer="96" rot="R270"/>
+<instance part="+3V23" gate="G$1" x="139.7" y="114.3" smashed="yes" rot="R90">
+<attribute name="VALUE" x="137.16" y="114.3" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="P+9" gate="1" x="139.7" y="114.3" smashed="yes" rot="R90">
-<attribute name="VALUE" x="137.16" y="116.84" size="1.778" layer="96" rot="R270"/>
+<instance part="+3V10" gate="G$1" x="27.94" y="101.6" smashed="yes" rot="R90">
+<attribute name="VALUE" x="25.4" y="101.6" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -10657,6 +10657,31 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="+3V24" gate="G$1" pin="+3V3"/>
 <pinref part="R22" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="104.14" x2="182.88" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="VCC"/>
+<wire x1="30.48" y1="157.48" x2="33.02" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="+3V9" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="U12" gate="G$1" pin="VCC"/>
+<wire x1="142.24" y1="114.3" x2="146.05" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="+3V23" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="U16" gate="G$1" pin="VCC"/>
+<wire x1="39.37" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="+3V19" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="U14" gate="G$1" pin="VCC"/>
+<wire x1="39.37" y1="25.4" x2="35.56" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="+3V22" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="VCC"/>
+<wire x1="33.02" y1="101.6" x2="30.48" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="+3V10" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -11078,33 +11103,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U14" gate="G$1" pin="Y0"/>
 <wire x1="39.37" y1="27.94" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
 <label x="27.94" y="27.94" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="+5V" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="VCC"/>
-<wire x1="30.48" y1="157.48" x2="33.02" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="P+5" gate="1" pin="+5V"/>
-</segment>
-<segment>
-<pinref part="U5" gate="G$1" pin="VCC"/>
-<wire x1="33.02" y1="101.6" x2="30.48" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="P+6" gate="1" pin="+5V"/>
-</segment>
-<segment>
-<pinref part="U16" gate="G$1" pin="VCC"/>
-<wire x1="39.37" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="P+7" gate="1" pin="+5V"/>
-</segment>
-<segment>
-<pinref part="U14" gate="G$1" pin="VCC"/>
-<wire x1="39.37" y1="25.4" x2="35.56" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="P+8" gate="1" pin="+5V"/>
-</segment>
-<segment>
-<pinref part="U12" gate="G$1" pin="VCC"/>
-<wire x1="142.24" y1="114.3" x2="146.05" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="P+9" gate="1" pin="+5V"/>
 </segment>
 </net>
 </nets>
