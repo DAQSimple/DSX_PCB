@@ -594,12 +594,6 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="1X18" urn="urn:adsk.eagle:package:29350604/1" type="box" library_version="1" library_locally_modified="yes">
-<description>PIN HEADER</description>
-<packageinstances>
-<packageinstance name="1X18"/>
-</packageinstances>
-</package3d>
 <package3d name="HDRVR10W64P254_1X10_2590X254X850B" urn="urn:adsk.eagle:package:29349473/1" type="model" library_version="1" library_locally_modified="yes">
 <description>Single-row, 10-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 8.50 mm insulator length, 25.90 X 2.54 X 8.50 mm body
 &lt;p&gt;Single-row (1X10), 10-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.20 mm tail length and 8.50 mm insulator length with overall size 25.90 X 2.54 X 8.50 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
@@ -745,9 +739,6 @@
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:29350604/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -854,16 +845,16 @@
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
-<part name="J5" library="DSX_Library" deviceset="FE02-1" device="1X02-3D" package3d_urn="urn:adsk.eagle:package:29349394/1"/>
-<part name="J6" library="DSX_Library" deviceset="FE02-1" device="1X02-3D" package3d_urn="urn:adsk.eagle:package:29349394/1"/>
-<part name="J11" library="DSX_Library" deviceset="FE06-1" device="1X6-FEM-HEAD" package3d_urn="urn:adsk.eagle:package:29349415/1"/>
-<part name="J1" library="DSX_Library" deviceset="FE08-1" device="1X8-FEM-HEAD-3D" package3d_urn="urn:adsk.eagle:package:29349454/1"/>
-<part name="J2" library="DSX_Library" deviceset="FE08-1" device="1X8-FEM-HEAD-3D" package3d_urn="urn:adsk.eagle:package:29349454/1"/>
-<part name="J3" library="DSX_Library" library_urn="urn:adsk.eagle:library:29350569" deviceset="1X18-MALE-RECEPTACLE" device="" package3d_urn="urn:adsk.eagle:package:29350604/1"/>
-<part name="J12" library="DSX_Library" library_urn="urn:adsk.eagle:library:29350569" deviceset="1X18-MALE-RECEPTACLE" device="" package3d_urn="urn:adsk.eagle:package:29350604/1"/>
-<part name="J4" library="DSX_Library" library_urn="urn:adsk.eagle:library:29350569" deviceset="FE10-1" device="1X10-FEM-HEAD-3D" package3d_urn="urn:adsk.eagle:package:29349473/1"/>
-<part name="J7" library="DSX_Library" library_urn="urn:adsk.eagle:library:29350569" deviceset="FE19-2" device="FE02-19-HEADER-3D" package3d_urn="urn:adsk.eagle:package:29358184/1"/>
-<part name="J8" library="DSX_Library" library_urn="urn:adsk.eagle:library:29350569" deviceset="FE19-2" device="FE02-19-HEADER-3D" package3d_urn="urn:adsk.eagle:package:29358184/1"/>
+<part name="J2" library="DSX_Library" deviceset="FE02-1" device="1X02-3D" package3d_urn="urn:adsk.eagle:package:29349394/1"/>
+<part name="J1" library="DSX_Library" deviceset="FE02-1" device="1X02-3D" package3d_urn="urn:adsk.eagle:package:29349394/1"/>
+<part name="J10" library="DSX_Library" deviceset="FE06-1" device="1X6-FEM-HEAD" package3d_urn="urn:adsk.eagle:package:29349415/1"/>
+<part name="J8" library="DSX_Library" deviceset="FE08-1" device="1X8-FEM-HEAD-3D" package3d_urn="urn:adsk.eagle:package:29349454/1"/>
+<part name="J9" library="DSX_Library" deviceset="FE08-1" device="1X8-FEM-HEAD-3D" package3d_urn="urn:adsk.eagle:package:29349454/1"/>
+<part name="J7" library="DSX_Library" library_urn="urn:adsk.eagle:library:29350569" deviceset="1X18-MALE-RECEPTACLE" device=""/>
+<part name="J4" library="DSX_Library" library_urn="urn:adsk.eagle:library:29350569" deviceset="1X18-MALE-RECEPTACLE" device=""/>
+<part name="J6" library="DSX_Library" library_urn="urn:adsk.eagle:library:29350569" deviceset="FE10-1" device="1X10-FEM-HEAD-3D" package3d_urn="urn:adsk.eagle:package:29349473/1"/>
+<part name="J5" library="DSX_Library" library_urn="urn:adsk.eagle:library:29350569" deviceset="FE19-2" device="FE02-19-HEADER-3D" package3d_urn="urn:adsk.eagle:package:29358184/1"/>
+<part name="J3" library="DSX_Library" library_urn="urn:adsk.eagle:library:29350569" deviceset="FE19-2" device="FE02-19-HEADER-3D" package3d_urn="urn:adsk.eagle:package:29358184/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -890,35 +881,35 @@
 <attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
 </instance>
-<instance part="J5" gate="G$1" x="109.22" y="177.8" smashed="yes" rot="MR0">
+<instance part="J2" gate="G$1" x="109.22" y="177.8" smashed="yes" rot="MR0">
 <attribute name="NAME" x="107.95" y="183.515" size="1.778" layer="95"/>
 </instance>
-<instance part="J6" gate="G$1" x="167.64" y="177.8" smashed="yes">
+<instance part="J1" gate="G$1" x="167.64" y="177.8" smashed="yes">
 <attribute name="NAME" x="168.91" y="183.515" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="J11" gate="G$1" x="111.76" y="93.98" smashed="yes">
+<instance part="J10" gate="G$1" x="111.76" y="93.98" smashed="yes">
 <attribute name="VALUE" x="110.49" y="83.82" size="1.778" layer="96"/>
 <attribute name="NAME" x="110.49" y="104.902" size="1.778" layer="95"/>
 </instance>
-<instance part="J1" gate="G$1" x="109.22" y="144.78" smashed="yes">
+<instance part="J8" gate="G$1" x="109.22" y="144.78" smashed="yes">
 <attribute name="NAME" x="107.95" y="158.242" size="1.778" layer="95"/>
 </instance>
-<instance part="J2" gate="G$1" x="167.64" y="93.98" smashed="yes" rot="MR0">
+<instance part="J9" gate="G$1" x="167.64" y="93.98" smashed="yes" rot="MR0">
 <attribute name="NAME" x="168.91" y="107.442" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="J3" gate="G$1" x="58.42" y="124.46" smashed="yes">
+<instance part="J7" gate="G$1" x="58.42" y="124.46" smashed="yes">
 <attribute name="NAME" x="52.84" y="149.86" size="1.778" layer="95"/>
 </instance>
-<instance part="J12" gate="G$1" x="220.98" y="127" smashed="yes" rot="MR0">
+<instance part="J4" gate="G$1" x="220.98" y="127" smashed="yes" rot="MR0">
 <attribute name="NAME" x="226.56" y="152.4" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="J4" gate="G$1" x="167.64" y="144.78" smashed="yes" rot="MR0">
+<instance part="J6" gate="G$1" x="167.64" y="144.78" smashed="yes" rot="MR0">
 <attribute name="NAME" x="168.91" y="160.782" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="J7" gate="G$1" x="93.98" y="124.46" smashed="yes">
+<instance part="J5" gate="G$1" x="93.98" y="124.46" smashed="yes">
 <attribute name="NAME" x="87.63" y="147.955" size="1.778" layer="95"/>
 </instance>
-<instance part="J8" gate="G$1" x="185.42" y="124.46" smashed="yes">
+<instance part="J3" gate="G$1" x="185.42" y="124.46" smashed="yes">
 <attribute name="NAME" x="179.07" y="147.955" size="1.778" layer="95"/>
 </instance>
 </instances>
