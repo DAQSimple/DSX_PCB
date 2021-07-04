@@ -494,7 +494,7 @@
 <pad name="17" x="40.64" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="18" x="43.18" y="0" drill="1.016" shape="long" rot="R90"/>
 <text x="-0.0762" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="0" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="-4.493" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="40.386" y1="-0.254" x2="40.894" y2="0.254" layer="51"/>
 <rectangle x1="37.846" y1="-0.254" x2="38.354" y2="0.254" layer="51"/>
 <rectangle x1="35.306" y1="-0.254" x2="35.814" y2="0.254" layer="51"/>
@@ -513,6 +513,10 @@
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 <rectangle x1="42.926" y1="-0.254" x2="43.434" y2="0.254" layer="51"/>
+<wire x1="-3" y1="-3" x2="47" y2="-3" width="0.127" layer="51"/>
+<wire x1="47" y1="-3" x2="47" y2="9" width="0.127" layer="51"/>
+<wire x1="47" y1="9" x2="-3" y2="9" width="0.127" layer="51"/>
+<wire x1="-3" y1="9" x2="-3" y2="-3" width="0.127" layer="51"/>
 </package>
 <package name="HDRVR10W64P254_1X10_2590X254X850B" urn="urn:adsk.eagle:footprint:29349478/1" library_version="1" library_locally_modified="yes">
 <description>Single-row, 10-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) col pitch, 8.50 mm insulator length, 25.90 X 2.54 X 8.50 mm body

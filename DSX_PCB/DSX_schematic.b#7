@@ -831,13 +831,11 @@ design rules under a new name.</description>
 <element name="J3" library="DSX_Library" library_urn="urn:adsk.eagle:library:29350569" package="HDRVR38W64P254_2X19_4876X508X850B" package3d_urn="urn:adsk.eagle:package:29358184/1" value="FE19-2FE02-19-HEADER-3D" x="82" y="66" smashed="yes" rot="R270" grouprefs="NUCLEO-HEADERS">
 <attribute name="NAME" x="79" y="67.659" size="1.27" layer="25" align="bottom-center"/>
 </element>
-<element name="J4" library="DSX_Library" library_urn="urn:adsk.eagle:library:29350569" package="1X18-RIGHT" value="1X18-MALE-RECEPTACLE-RIGHT" x="4" y="-10" smashed="yes">
-<attribute name="NAME" x="3.9238" y="-8.1712" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="4" y="-14.493" size="1.27" layer="27"/>
+<element name="J4" library="DSX_Library" library_urn="urn:adsk.eagle:library:29350569" package="1X18-RIGHT" value="1X18-MALE-RECEPTACLE-RIGHT" x="91" y="64" smashed="yes" rot="R270">
+<attribute name="NAME" x="88.9238" y="67.8288" size="1.27" layer="25" ratio="10"/>
 </element>
-<element name="J7" library="DSX_Library" library_urn="urn:adsk.eagle:library:29350569" package="1X18-LEFT" value="1X18-MALE-RECEPTACLE-LEFT" x="3" y="-21" smashed="yes">
-<attribute name="NAME" x="3.0508" y="-17.6472" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="2.746" y="-23.969" size="1.27" layer="27"/>
+<element name="J7" library="DSX_Library" library_urn="urn:adsk.eagle:library:29350569" package="1X18-LEFT" value="1X18-MALE-RECEPTACLE-LEFT" x="9" y="67" smashed="yes" rot="R270">
+<attribute name="NAME" x="9.0508" y="69.3528" size="1.27" layer="25" ratio="10"/>
 </element>
 </elements>
 <signals>
