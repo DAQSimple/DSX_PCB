@@ -15347,8 +15347,8 @@ Source: http://focus.ti.com/lit/ds/scas794/scas794.pdf</description>
 <instance part="GND25" gate="1" x="248.92" y="137.16" smashed="yes">
 <attribute name="VALUE" x="246.38" y="134.62" size="1.778" layer="96"/>
 </instance>
-<instance part="GND26" gate="1" x="33.02" y="109.22" smashed="yes">
-<attribute name="VALUE" x="30.48" y="106.68" size="1.778" layer="96"/>
+<instance part="GND26" gate="1" x="25.4" y="109.22" smashed="yes">
+<attribute name="VALUE" x="22.86" y="106.68" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V13" gate="G$1" x="114.3" y="132.08" smashed="yes">
 <attribute name="VALUE" x="116.84" y="134.62" size="1.778" layer="96" rot="R180"/>
@@ -15413,21 +15413,21 @@ Source: http://focus.ti.com/lit/ds/scas794/scas794.pdf</description>
 <pinref part="J10" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="50.8" y1="111.76" x2="33.02" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="111.76" x2="25.4" y2="111.76" width="0.1524" layer="91"/>
 <label x="40.64" y="111.76" size="1.778" layer="95"/>
 <pinref part="GND26" gate="1" pin="GND"/>
-<wire x1="50.8" y1="129.54" x2="33.02" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="129.54" x2="25.4" y2="129.54" width="0.1524" layer="91"/>
 <label x="40.64" y="129.54" size="1.778" layer="95"/>
-<wire x1="50.8" y1="124.46" x2="33.02" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="124.46" x2="25.4" y2="124.46" width="0.1524" layer="91"/>
 <label x="40.64" y="124.46" size="1.778" layer="95"/>
-<wire x1="33.02" y1="129.54" x2="33.02" y2="124.46" width="0.1524" layer="91"/>
-<junction x="33.02" y="124.46"/>
-<wire x1="33.02" y1="124.46" x2="33.02" y2="111.76" width="0.1524" layer="91"/>
-<junction x="33.02" y="111.76"/>
-<wire x1="50.8" y1="134.62" x2="33.02" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="129.54" x2="25.4" y2="124.46" width="0.1524" layer="91"/>
+<junction x="25.4" y="124.46"/>
+<wire x1="25.4" y1="124.46" x2="25.4" y2="111.76" width="0.1524" layer="91"/>
+<junction x="25.4" y="111.76"/>
+<wire x1="50.8" y1="134.62" x2="25.4" y2="134.62" width="0.1524" layer="91"/>
 <label x="40.64" y="134.62" size="1.778" layer="95"/>
-<wire x1="33.02" y1="134.62" x2="33.02" y2="129.54" width="0.1524" layer="91"/>
-<junction x="33.02" y="129.54"/>
+<wire x1="25.4" y1="134.62" x2="25.4" y2="129.54" width="0.1524" layer="91"/>
+<junction x="25.4" y="129.54"/>
 <pinref part="J3" gate="G$1" pin="5"/>
 <pinref part="J3" gate="G$1" pin="7"/>
 <pinref part="J3" gate="G$1" pin="9"/>
@@ -15706,48 +15706,6 @@ Source: http://focus.ti.com/lit/ds/scas794/scas794.pdf</description>
 <pinref part="J10" gate="G$1" pin="15"/>
 </segment>
 </net>
-<net name="CS_T" class="0">
-<segment>
-<wire x1="50.8" y1="109.22" x2="40.64" y2="109.22" width="0.1524" layer="91"/>
-<label x="40.64" y="109.22" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="15"/>
-</segment>
-</net>
-<net name="SCK_T" class="0">
-<segment>
-<wire x1="50.8" y1="106.68" x2="40.64" y2="106.68" width="0.1524" layer="91"/>
-<label x="40.64" y="106.68" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="16"/>
-</segment>
-</net>
-<net name="MISO_T" class="0">
-<segment>
-<wire x1="50.8" y1="104.14" x2="40.64" y2="104.14" width="0.1524" layer="91"/>
-<label x="40.64" y="104.14" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="17"/>
-</segment>
-</net>
-<net name="MOSI_T" class="0">
-<segment>
-<wire x1="50.8" y1="101.6" x2="40.64" y2="101.6" width="0.1524" layer="91"/>
-<label x="40.64" y="101.6" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="18"/>
-</segment>
-</net>
-<net name="SDA_T" class="0">
-<segment>
-<wire x1="50.8" y1="137.16" x2="40.64" y2="137.16" width="0.1524" layer="91"/>
-<label x="40.64" y="137.16" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="4"/>
-</segment>
-</net>
-<net name="SLC_T" class="0">
-<segment>
-<wire x1="50.8" y1="139.7" x2="40.64" y2="139.7" width="0.1524" layer="91"/>
-<label x="40.64" y="139.7" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="3"/>
-</segment>
-</net>
 <net name="DO1_M" class="0">
 <segment>
 <wire x1="182.88" y1="124.46" x2="167.64" y2="124.46" width="0.1524" layer="91"/>
@@ -15803,12 +15761,22 @@ Source: http://focus.ti.com/lit/ds/scas794/scas794.pdf</description>
 <wire x1="182.88" y1="142.24" x2="167.64" y2="142.24" width="0.1524" layer="91"/>
 <label x="167.64" y="142.24" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="50.8" y1="139.7" x2="35.56" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="3"/>
+<label x="35.56" y="139.7" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="I2CSDA_M" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="5"/>
 <wire x1="182.88" y1="139.7" x2="167.64" y2="139.7" width="0.1524" layer="91"/>
 <label x="167.64" y="139.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="50.8" y1="137.16" x2="35.56" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="4"/>
+<label x="35.56" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPISCK_M" class="0">
@@ -15817,12 +15785,22 @@ Source: http://focus.ti.com/lit/ds/scas794/scas794.pdf</description>
 <wire x1="91.44" y1="144.78" x2="76.2" y2="144.78" width="0.1524" layer="91"/>
 <label x="76.2" y="144.78" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="50.8" y1="106.68" x2="35.56" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="16"/>
+<label x="35.56" y="106.68" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SPIMOSI_M" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="3"/>
 <wire x1="91.44" y1="142.24" x2="76.2" y2="142.24" width="0.1524" layer="91"/>
 <label x="76.2" y="142.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="50.8" y1="101.6" x2="35.56" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="18"/>
+<label x="35.56" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPICS_M" class="0">
@@ -15831,12 +15809,22 @@ Source: http://focus.ti.com/lit/ds/scas794/scas794.pdf</description>
 <wire x1="91.44" y1="116.84" x2="76.2" y2="116.84" width="0.1524" layer="91"/>
 <label x="76.2" y="116.84" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="50.8" y1="109.22" x2="35.56" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="15"/>
+<label x="35.56" y="109.22" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SPIMISO_M" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="144.78" x2="114.3" y2="144.78" width="0.1524" layer="91"/>
 <label x="101.6" y="144.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="50.8" y1="104.14" x2="35.56" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="17"/>
+<label x="35.56" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DLED1" class="0">

@@ -7552,8 +7552,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="DO2_T" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="-3V3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="ADC_CURRENT" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="AO1_T" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="AO2_T" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -11163,14 +11161,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NAME" x="100.33" y="171.45" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="102.87" y="168.91" size="1.778" layer="97"/>
 </instance>
-<instance part="AO1_T" gate="G$1" x="101.6" y="160.02" smashed="yes">
-<attribute name="NAME" x="100.33" y="161.29" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="102.87" y="158.75" size="1.778" layer="97"/>
-</instance>
-<instance part="AO2_T" gate="G$1" x="101.6" y="152.4" smashed="yes">
-<attribute name="NAME" x="100.33" y="153.67" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="102.87" y="151.13" size="1.778" layer="97"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -11240,16 +11230,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="AO1_T" class="0">
 <segment>
-<pinref part="AO1_T" gate="G$1" pin="TP"/>
 <wire x1="101.6" y1="157.48" x2="119.38" y2="157.48" width="0.1524" layer="91"/>
 <label x="109.22" y="157.48" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="AO2_T" class="0">
-<segment>
-<pinref part="AO2_T" gate="G$1" pin="TP"/>
-<wire x1="101.6" y1="149.86" x2="119.38" y2="149.86" width="0.1524" layer="91"/>
-<label x="109.22" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

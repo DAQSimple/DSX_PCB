@@ -15987,27 +15987,27 @@ Source: http://focus.ti.com/lit/ds/scas794/scas794.pdf</description>
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
 </instance>
 <instance part="R80" gate="G$1" x="50.8" y="185.42" smashed="yes">
-<attribute name="NAME" x="46.99" y="186.9186" size="1.778" layer="95"/>
+<attribute name="NAME" x="44.958" y="186.6646" size="1.778" layer="95"/>
 <attribute name="VALUE" x="51.308" y="186.944" size="1.778" layer="96"/>
 </instance>
 <instance part="R76" gate="G$1" x="50.8" y="175.26" smashed="yes">
-<attribute name="NAME" x="46.99" y="176.7586" size="1.778" layer="95"/>
+<attribute name="NAME" x="44.196" y="176.5046" size="1.778" layer="95"/>
 <attribute name="VALUE" x="51.054" y="176.784" size="1.778" layer="96"/>
 </instance>
 <instance part="R72" gate="G$1" x="50.8" y="165.1" smashed="yes">
-<attribute name="NAME" x="46.99" y="166.5986" size="1.778" layer="95"/>
+<attribute name="NAME" x="44.196" y="166.3446" size="1.778" layer="95"/>
 <attribute name="VALUE" x="51.054" y="166.624" size="1.778" layer="96"/>
 </instance>
 <instance part="R68" gate="G$1" x="50.8" y="154.94" smashed="yes">
-<attribute name="NAME" x="46.99" y="156.4386" size="1.778" layer="95"/>
+<attribute name="NAME" x="44.45" y="156.1846" size="1.778" layer="95"/>
 <attribute name="VALUE" x="51.054" y="156.464" size="1.778" layer="96"/>
 </instance>
 <instance part="R64" gate="G$1" x="50.8" y="134.62" smashed="yes">
-<attribute name="NAME" x="46.99" y="136.1186" size="1.778" layer="95"/>
+<attribute name="NAME" x="44.704" y="135.8646" size="1.778" layer="95"/>
 <attribute name="VALUE" x="51.054" y="136.144" size="1.778" layer="96"/>
 </instance>
 <instance part="R60" gate="G$1" x="50.8" y="124.46" smashed="yes">
-<attribute name="NAME" x="47.498" y="125.9586" size="1.778" layer="95"/>
+<attribute name="NAME" x="44.958" y="125.7046" size="1.778" layer="95"/>
 <attribute name="VALUE" x="52.324" y="126.238" size="1.778" layer="96"/>
 </instance>
 <instance part="R79" gate="G$1" x="111.76" y="185.42" smashed="yes">
@@ -16039,11 +16039,11 @@ Source: http://focus.ti.com/lit/ds/scas794/scas794.pdf</description>
 </instance>
 <instance part="R45" gate="G$1" x="162.56" y="185.42" smashed="yes">
 <attribute name="NAME" x="158.75" y="186.9186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="158.75" y="182.118" size="1.778" layer="96"/>
+<attribute name="VALUE" x="158.75" y="182.626" size="1.778" layer="96"/>
 </instance>
 <instance part="R41" gate="G$1" x="162.56" y="175.26" smashed="yes">
 <attribute name="NAME" x="158.75" y="176.7586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="158.75" y="171.958" size="1.778" layer="96"/>
+<attribute name="VALUE" x="159.004" y="172.466" size="1.778" layer="96"/>
 </instance>
 <instance part="R44" gate="G$1" x="223.52" y="185.42" smashed="yes">
 <attribute name="NAME" x="219.71" y="186.9186" size="1.778" layer="95"/>
@@ -16102,7 +16102,7 @@ Source: http://focus.ti.com/lit/ds/scas794/scas794.pdf</description>
 <attribute name="VALUE" x="21.59" y="121.158" size="1.778" layer="96"/>
 </instance>
 <instance part="R56" gate="G$1" x="50.8" y="114.3" smashed="yes">
-<attribute name="NAME" x="46.99" y="115.7986" size="1.778" layer="95"/>
+<attribute name="NAME" x="44.958" y="115.5446" size="1.778" layer="95"/>
 <attribute name="VALUE" x="52.578" y="115.824" size="1.778" layer="96"/>
 </instance>
 <instance part="R52" gate="G$1" x="38.1" y="114.3" smashed="yes">
@@ -16114,7 +16114,7 @@ Source: http://focus.ti.com/lit/ds/scas794/scas794.pdf</description>
 <attribute name="VALUE" x="21.59" y="110.998" size="1.778" layer="96"/>
 </instance>
 <instance part="R51" gate="G$1" x="50.8" y="104.14" smashed="yes">
-<attribute name="NAME" x="46.99" y="105.6386" size="1.778" layer="95"/>
+<attribute name="NAME" x="44.45" y="105.6386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="52.578" y="105.664" size="1.778" layer="96"/>
 </instance>
 <instance part="R46" gate="G$1" x="38.1" y="104.14" smashed="yes">
@@ -16138,11 +16138,11 @@ Source: http://focus.ti.com/lit/ds/scas794/scas794.pdf</description>
 </instance>
 <instance part="R27" gate="G$1" x="162.56" y="154.94" smashed="yes">
 <attribute name="NAME" x="158.75" y="156.4386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="158.75" y="151.638" size="1.778" layer="96"/>
+<attribute name="VALUE" x="158.75" y="152.146" size="1.778" layer="96"/>
 </instance>
 <instance part="R34" gate="G$1" x="162.56" y="165.1" smashed="yes">
 <attribute name="NAME" x="158.75" y="166.5986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="158.75" y="161.798" size="1.778" layer="96"/>
+<attribute name="VALUE" x="158.75" y="162.306" size="1.778" layer="96"/>
 </instance>
 <instance part="R33" gate="G$1" x="223.52" y="165.1" smashed="yes">
 <attribute name="NAME" x="219.71" y="166.5986" size="1.778" layer="95"/>
