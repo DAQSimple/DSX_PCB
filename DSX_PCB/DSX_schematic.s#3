@@ -16385,9 +16385,9 @@ Source: http://focus.ti.com/lit/ds/scas794/scas794.pdf</description>
 <instance part="J1" gate="G$1" x="167.64" y="177.8" smashed="yes">
 <attribute name="NAME" x="168.91" y="183.515" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="J9" gate="G$1" x="114.3" y="81.28" smashed="yes">
-<attribute name="VALUE" x="113.03" y="71.12" size="1.778" layer="96"/>
-<attribute name="NAME" x="113.03" y="92.202" size="1.778" layer="95"/>
+<instance part="J9" gate="G$1" x="116.84" y="81.28" smashed="yes" rot="R180">
+<attribute name="VALUE" x="118.11" y="91.44" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="118.11" y="70.358" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="J7" gate="G$1" x="114.3" y="162.56" smashed="yes" rot="MR180">
 <attribute name="NAME" x="118.11" y="173.482" size="1.778" layer="95" rot="MR0"/>
